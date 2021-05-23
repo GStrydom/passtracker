@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+   margin: 0;
+   background: #F2F2F2;
+   height: 100vh;
+}
+
+.nav-brander {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.topnav {
+	justify-content: space-between;
+}
+
+.nav-span {
+	padding-right: 1rem;
+}
