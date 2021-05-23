@@ -17,6 +17,31 @@ body {
 	justify-content: space-between;
 }
 
+.stat-bar {
+	justify-content: space-between;
+}
+
 .nav-span {
 	padding-right: 1rem;
+}
+
+.nav-span1 {
+	padding-right: 2rem;
+}
+
+.dup-span {
+	padding-right: 1rem;
+}
+
+.mat-icon {
+    transform: scale(1.5);
+    padding-right: 0.5em;
+}
+
+.searchbar {
+	height: 100%;
+}
+
+.logout-link, .logout-link:hover {
+	color: white;
 }

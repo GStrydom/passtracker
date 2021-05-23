@@ -1,7 +1,8 @@
-<div class="row">
-  <div class="col-md-4 offset-md-1">
-    <div class="input-group">
-      <input type="text" class="form-control" [(ngModel)]="searchValue" [ngModelOptions]="{standalone: true}" placeholder="Search..." (keyup)="searchByName()">
+<div class="list-group users-list">
+  <div class="row">
+  <div class="col-md-6">
+    <div class="input-group searchbar">
+      <input type="text" class="form-control searchbar" [(ngModel)]="searchValue" [ngModelOptions]="{standalone: true}" placeholder="Search..." (keyup)="searchByName()">
       <div class="input-group-append">
         <span class="input-group-text"><ion-icon class="icon" name="search"></ion-icon></span>
       </div>
@@ -9,18 +10,13 @@
   </div>
   <div class="col-md-6 filter-by-age">
     <div class="row">
-      <div class="col-md-auto title">
-        <span>Password Stats:</span>
-      </div>
       <div class="col">
-        <span>182 passwords in 4 categories</span>
+        <mat-card class="stat-bar"><span>Password Stats:</span>&nbsp;<span>{{ totalPasswords }} passwords in 4 categories</span><span class="dup-span">Duplicate Passwords: 0</span></mat-card>
       </div>
     </div>
   </div>
 </div>
-
-<div class="list-group users-list">
-  <div class="row">
+  <div class="row mt-4 mb-4">
     <a class="nav-link" routerLink="/new-user">
       <button class="btn btn-primary">New Password</button>
     </a>

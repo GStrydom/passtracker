@@ -11,6 +11,7 @@ import { EditPasswordComponent } from './edit-password/edit-password.component';
 import { EditPasswordResolver } from './edit-password/edit-password.resolver';
 import { NewPasswordComponent } from './new-password/new-password.component';
 import { HomeComponent } from './home/home.component';
+import { AuthService } from './auth/auth.service';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
@@ -19,7 +20,8 @@ import { FirebaseService } from './services/firebase.service';
 import { AngularFireAuthModule } from  "@angular/fire/auth";
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatInputModule, MatSliderModule, MatDialogModule, MatTooltipModule, MatToolbarModule, MatSelectModule } from '@angular/material';
+import {MatButtonModule, MatInputModule, MatSliderModule, MatDialogModule, MatTooltipModule, MatToolbarModule, MatSelectModule, MatCardModule, MatExpansionModule } from '@angular/material';
+import { MatIconModule } from '@angular/material/icon';
 
 import 'hammerjs';
 
@@ -60,7 +62,11 @@ import { GeneralComponent } from './general/general.component';
     MatTooltipModule,
     MatToolbarModule,
     MatSelectModule,
-    AngularFireAuthModule
+    MatIconModule,
+    MatCardModule,
+    MatExpansionModule,
+    AngularFireAuthModule,
+
   ],
   providers: [FirebaseService, EditPasswordResolver],
   bootstrap: [AppComponent],

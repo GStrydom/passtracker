@@ -22,7 +22,7 @@ export class AuthService {
 
   async login(email: string, password: string) {
     var result = await this.afAuth.auth.signInWithEmailAndPassword(email, password)
-    this.router.navigate(['admin/list']);
+    this.router.navigate(['home']);
   }
 
   async register(email: string, password: string) {
@@ -37,7 +37,7 @@ export class AuthService {
   }
 
   get isLoggedIn(): boolean {
-    const  user  =  JSON.parse(localStorage.getItem('user'));
-    return  user  !==  null;
+    const user = JSON.parse(localStorage.getItem('user'));
+    return user !== null;
   }
 }

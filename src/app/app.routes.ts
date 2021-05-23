@@ -1,6 +1,8 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { GamingComponent } from './gaming/gaming.component';
+import { SocialmediaComponent } from './socialmedia/socialmedia.component';
+import { GeneralComponent } from './general/general.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { NewPasswordComponent } from './new-password/new-password.component';
@@ -13,6 +15,8 @@ export const rootRouterConfig: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'home', component: HomeComponent },
   { path: 'gaming', component: GamingComponent },
+  { path: 'social', component: SocialmediaComponent },
+  { path: 'general', component: GeneralComponent },
   { path: 'new-user', component: NewPasswordComponent },
   { path: 'details/:id', component: EditPasswordComponent, resolve:{ data : EditPasswordResolver} }
 ];

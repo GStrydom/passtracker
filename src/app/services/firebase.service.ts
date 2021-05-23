@@ -63,7 +63,7 @@ export class FirebaseService {
     return this.db.collection('passwords').add({
       category: value.category,
       nameToSearch: value.website.toLowerCase(),
-      website_name: value.website,
+      website: value.website,
       username: value.username,
       password: value.password,
       avatar: avatar
