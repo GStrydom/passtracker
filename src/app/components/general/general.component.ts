@@ -1,19 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { FirebaseService } from '../services/firebase.service';
+import { FirebaseService } from '../../services/firebase.service';
 import { Router, Params } from '@angular/router';
 
 @Component({
-  selector: 'app-gaming',
-  templateUrl: './gaming.component.html',
-  styleUrls: ['./gaming.component.scss']
+  selector: 'app-general',
+  templateUrl: './general.component.html',
+  styleUrls: ['./general.component.css']
 })
-export class GamingComponent implements OnInit {
+export class GeneralComponent implements OnInit {
 
   searchValue: string = "";
   items: Array<any>;
   age_filtered_items: Array<any>;
   name_filtered_items: Array<any>;
-  totalPasswords: number = 0;
 
   constructor(
     public firebaseService: FirebaseService,
@@ -25,13 +24,11 @@ export class GamingComponent implements OnInit {
   }
 
   getData(){
-    this.firebaseService.getGamingPasswords()
+    this.firebaseService.getGeneralPasswords()
     .subscribe(result => {
       this.items = result;
       this.age_filtered_items = result;
       this.name_filtered_items = result;
-
-      this.totalPasswords = this.name_filtered_items.length;
     })
   }
 

@@ -7,12 +7,12 @@ import { rootRouterConfig } from './app.routes';
 import { Router } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { ImageDialogComponent } from './image-dialog/image-dialog.component';
-import { EditPasswordComponent } from './edit-password/edit-password.component';
-import { EditPasswordResolver } from './edit-password/edit-password.resolver';
-import { NewPasswordComponent } from './new-password/new-password.component';
-import { HomeComponent } from './home/home.component';
-import { AuthService } from './auth/auth.service';
+import { ImageDialogComponent } from './components/image-dialog/image-dialog.component';
+import { EditPasswordComponent } from './components/edit-password/edit-password.component';
+import { EditPasswordResolver } from './components/edit-password/edit-password.resolver';
+import { NewPasswordComponent } from './components/new-password/new-password.component';
+import { HomeComponent } from './components/home/home.component';
+import { AuthService } from './services/auth/auth.service';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
@@ -34,12 +34,12 @@ import { MatIconModule } from '@angular/material/icon';
 
 import 'hammerjs';
 
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { GamingComponent } from './gaming/gaming.component';
-import { SocialmediaComponent } from './socialmedia/socialmedia.component';
-import { GeneralComponent } from './general/general.component';
-import { LogoutComponent } from './logout/logout.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { GamingComponent } from './components/gaming/gaming.component';
+import { SocialmediaComponent } from './components/socialmedia/socialmedia.component';
+import { GeneralComponent } from './components/general/general.component';
+import { LogoutComponent } from './components/logout/logout.component';
 
 
 @NgModule({

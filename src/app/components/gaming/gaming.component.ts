@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { FirebaseService } from '../services/firebase.service';
+import { FirebaseService } from '../../services/firebase.service';
 import { Router, Params } from '@angular/router';
 
 @Component({
   selector: 'app-gaming',
-  templateUrl: './socialmedia.component.html',
-  styleUrls: ['./socialmedia.component.scss']
+  templateUrl: './gaming.component.html',
+  styleUrls: ['./gaming.component.scss']
 })
-export class SocialmediaComponent implements OnInit {
+export class GamingComponent implements OnInit {
 
   searchValue: string = "";
   items: Array<any>;
@@ -25,7 +25,7 @@ export class SocialmediaComponent implements OnInit {
   }
 
   getData(){
-    this.firebaseService.getSocialPasswords()
+    this.firebaseService.getGamingPasswords()
     .subscribe(result => {
       this.items = result;
       this.age_filtered_items = result;
