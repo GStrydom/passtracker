@@ -1,23 +1,20 @@
-<div class="container pt-3">
-  <div class="row justify-content-sm-center">
-    <div class="col-sm-10 col-md-6">
-      <div class="card border-info">
-        <div class="card-header">Login</div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <img src="https://placeimg.com/128/128/nature">
-            </div>
-            <div class="col-md-8">
-              <form>
-                <input type="text" class="form-control mb-2" placeholder="Email" required autofocus>
-                <input type="password" class="form-control mb-2" placeholder="Password" required>
-                <button class="btn btn-lg btn-primary btn-block mb-1" type="submit">Login</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<h1 *ngIf="authenticationService && authenticationService.userData | async">Hello {{ (authenticationService.userData | async)?.email }}</h1>
+<div *ngIf="!(authenticationService.userData | async)">
+<div class="form-group">
+<label for="email">Email address:</label>
+<input type="text" class="form-control" [(ngModel)]="email" placeholder="email">
+</div>
+<div class="form-group">
+<label for="pwd">Password:</label>
+<input type="password" class="form-control" [(ngModel)]="password" id="pwd" placeholder="password">
+</div>
+<button (click)="signUp()" class="btn btn-default">Sign Up</button>
+<button (click)="signIn()" class="btn btn-default" style="margin-left:5px;">Login</button>
+
+</div>
+<button (click)="signOut()" class="btn btn-primary" *ngIf="authenticationService.userData | async">Logout</button>
+</div>
 </div>
