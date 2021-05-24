@@ -4,6 +4,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
+import { Router } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ImageDialogComponent } from './image-dialog/image-dialog.component';
@@ -38,6 +39,7 @@ import { RegisterComponent } from './register/register.component';
 import { GamingComponent } from './gaming/gaming.component';
 import { SocialmediaComponent } from './socialmedia/socialmedia.component';
 import { GeneralComponent } from './general/general.component';
+import { LogoutComponent } from './logout/logout.component';
 
 
 @NgModule({
@@ -52,6 +54,7 @@ import { GeneralComponent } from './general/general.component';
     GamingComponent,
     SocialmediaComponent,
     GeneralComponent,
+    LogoutComponent,
     
   ],
   entryComponents: [ImageDialogComponent],
@@ -76,7 +79,7 @@ import { GeneralComponent } from './general/general.component';
     AngularFireAuthModule,
 
   ],
-  providers: [FirebaseService, EditPasswordResolver],
+  providers: [FirebaseService, EditPasswordResolver, AuthService],
   bootstrap: [AppComponent],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
