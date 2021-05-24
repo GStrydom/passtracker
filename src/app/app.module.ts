@@ -20,7 +20,15 @@ import { FirebaseService } from './services/firebase.service';
 import { AngularFireAuthModule } from  "@angular/fire/auth";
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule, MatInputModule, MatSliderModule, MatDialogModule, MatTooltipModule, MatToolbarModule, MatSelectModule, MatCardModule, MatExpansionModule } from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSelectModule } from '@angular/material/select';
+import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
 
 import 'hammerjs';

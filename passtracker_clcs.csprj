@@ -3,363 +3,613 @@
 <phptree>
 </phptree>
 <jstree>
-<treenode node="AppComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\app.component.ts;f7;7;1;9;;;;vpos;;v;;aObject_;;c;;r;;d26,7;;b0,0;;m0;;e1;;i;;l">
-<treenode node="title;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.component.ts;f0;8;7;8;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="AppComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\app.component.ts;f7;7;1;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;7;21;7;;;;vpos;;v;;aObject_;;c;;r;;d26,7;;b0,0;;m0;;e1;;i;;l">
+<treenode node="title;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.component.ts;f0;8;7;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;7;8;7;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="AppModule;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f7;57;26;57;;;;vpos;;v;;aObject_;;c;;r;;d23,57;;b0,0;;m0;;e1;;i;;l">
+<treenode node="AppModule;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f7;76;25;76;;;;vpos;;v;;aObject_;;c;;r;;d23,76;;b0,0;;m0;;e1;;i;;l">
 </treenode>
-<treenode node="EditPasswordComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f7;13;1;101;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d53,13;;b0,0;;m0;;e1;;i;;lfirebaseService;;proute;;pfb;;prouter;;pdialog;;pFirebaseService;;xActivatedRoute;;xFormBuilder;;xRouter;;xMatDialog;;x">
-<treenode node="cancel;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;97;3;99;;;;vpos;;v;;a;;r;;d10,97;;b0,0;;m0;;e0;;i;;l">
-<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;98;15;98;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="AuthService;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f7;9;1;42;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;20;13;;;;vpos;;v;;aObject_;;c;;r;;d25,9;;b0,0;;m0;;e1;;i;;lafAuth;;prouter;;pAngularFireAuth;;xRouter;;x">
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f0;11;3;20;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d73,11;;b0,0;;m0;;e0;;i;;lafAuth;;prouter;;pAngularFireAuth;;xRouter;;x">
+<treenode node="afAuth;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f20;11;28;11;;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f9;12;15;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f54;11;62;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;33;7;39;;;;vpos;;v;;a;;r;;d4,39;;b0,0;;m0;;e0;;i;;lfirebaseService;;proute;;pfb;;prouter;;pdialog;;pFirebaseService;;xActivatedRoute;;xFormBuilder;;xRouter;;xMatDialog;;x">
-<treenode node="dialog;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f10;38;17;38;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="user;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f36;12;40;12;;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f13;14;17;14;;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f57;15;61;15;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="fb;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f11;36;14;36;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f10;34;26;34;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="login;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f7;22;3;25;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d47,22;;b0,0;;m0;;e0;;i;;lemail;;ppassword;;pstring;;xstring;;x">
+<treenode node="email;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f14;22;19;22;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="route;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f11;35;17;35;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="password;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f28;22;37;22;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f11;37;18;37;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f7;23;14;23;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vposlogin;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f9;24;15;24;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="createForm;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;52;3;59;;;;vpos;;v;;a;;r;;d15,52;;b0,0;;m0;;e0;;i;;l">
-<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;53;20;53;;;;vposcreateForm;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="logout;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f7;32;3;36;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d16,32;;b0,0;;m0;;e0;;i;;l">
+<treenode node="afAuth;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f15;33;21;33;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="delete;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;85;3;95;;;;vpos;;v;;a;;r;;d10,85;;b0,0;;m0;;e0;;i;;l">
-<treenode node="err;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;91;9;91;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f9;35;15;35;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;86;24;86;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f45;86;49;86;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="parse;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f22;39;27;39;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;llocalStorage;;p.getItem;;x">
+<treenode node="localStorage;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f28;39;40;39;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="res;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;88;9;88;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;89;19;89;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="register;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f7;27;3;30;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d50,27;;b0,0;;m0;;e0;;i;;lemail;;ppassword;;pstring;;xstring;;x">
+<treenode node="email;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f17;27;22;27;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="password;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f31;27;40;27;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;41;3;50;;;;vpos;;v;;a;;r;;d13,41;;b0,0;;m0;;e0;;i;;l">
-<treenode node="data;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;43;14;43;;;;vposArray;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f7;28;14;28;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vposregister;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;45;17;45;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;46;17;46;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
-<treenode node="id;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f18;46;20;46;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="afAuth;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f9;12;15;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="route;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;42;14;42;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="async;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f0;22;7;22;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="routeData;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f30;42;39;42;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="boolean;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f19;38;27;38;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="isLoggedIn;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f5;38;16;38;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="onSubmit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;74;3;83;;;;vpos;;v;;a;;r;;d17,74;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;77;24;77;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="user;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f0;10;6;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;13;8;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f45;77;49;77;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="res;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;79;9;79;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="EditPasswordComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f7;13;1;101;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;30;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;30;9;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d53,13;;b0,0;;m0;;e1;;i;;lfirebaseService;;proute;;pfb;;prouter;;pdialog;;pFirebaseService;;xActivatedRoute;;xFormBuilder;;xRouter;;xMatDialog;;x">
+<treenode node="cancel;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;97;3;99;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d10,97;;b0,0;;m0;;e0;;i;;l">
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;98;15;98;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;80;19;80;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f11;74;16;74;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;33;7;39;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d4,39;;b0,0;;m0;;e0;;i;;lfirebaseService;;proute;;pfb;;prouter;;pdialog;;pFirebaseService;;xActivatedRoute;;xFormBuilder;;xRouter;;xMatDialog;;x">
+<treenode node="dialog;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f10;38;17;38;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="fb;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f11;36;14;36;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="openDialog;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;61;3;72;;;;vpos;;v;;a;;r;;d15,61;;b0,0;;m0;;e0;;i;;l">
-<treenode node="dialogRef;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;62;19;62;;;;vposopenDialog;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f10;34;26;34;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;69;17;69;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
-<treenode node="avatar;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f18;69;24;69;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
-<treenode node="avatar;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f10;75;16;75;;;;vposonSubmit;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
-<treenode node="age;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f10;76;13;76;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="route;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f11;35;17;35;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f11;37;18;37;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
+<treenode node="createForm;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;52;3;59;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d15,52;;b0,0;;m0;;e0;;i;;l">
+<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;53;20;53;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vposcreateForm;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f38;67;44;67;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f22;54;26;54;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f21;55;25;55;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f22;56;26;56;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f22;57;26;57;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;15;13;15;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="delete;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;85;3;95;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d10,85;;b0,0;;m0;;e0;;i;;l">
+<treenode node="err;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;91;9;91;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;16;6;16;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;86;24;86;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="validation_messages;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;18;2;31;;;;vposString;;v;;a;;r;;d24,18;;b0,0;;m0;;e0;;i;;l">
-<treenode node="message;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f24;20;32;20;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f45;86;49;86;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="res;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;88;9;88;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;89;19;89;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="EditPasswordResolver;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f7;5;1;21;;;;vpos;;v;;aObject_;;cResolve;;c;;r;;d58,5;;b0,0;;m0;;e1;;i;;lfirebaseService;;pFirebaseService;;x">
-<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f0;7;58;7;;;;vpos;;v;;a;;r;;d55,7;;b0,0;;m0;;e0;;i;;lfirebaseService;;pFirebaseService;;x">
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f20;7;36;7;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;41;3;50;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d13,41;;b0,0;;m0;;e0;;i;;l">
+<treenode node="data;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;43;14;43;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vposArray;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="resolve;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f0;9;3;20;;;;vpos;;v;;a;;r;;d42,9;;b0,0;;m0;;e0;;i;;lroute;;pActivatedRouteSnapshot;;x">
-<treenode node="data;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f0;15;12;15;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;46;17;46;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;45;17;45;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;46;17;46;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="id;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f18;46;20;46;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f11;13;26;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="passwordId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f9;12;20;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
+<treenode node="route;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;42;14;42;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="route;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f10;9;15;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="routeData;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f30;42;39;42;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
+<treenode node="onSubmit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;74;3;83;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d17,74;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;77;24;77;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="FirebaseService;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f7;6;1;52;;;;vpos;;v;;aObject_;;c;;r;;d29,6;;b0,0;;m0;;e1;;i;;ldb;;pAngularFirestore;;x">
-<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;8;45;8;;;;vpos;;v;;a;;r;;d43,8;;b0,0;;m0;;e0;;i;;ldb;;pAngularFirestore;;x">
-<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f20;8;23;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f45;77;49;77;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="res;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;79;9;79;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="createPassword;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;42;3;51;;;;vpos;;v;;a;;r;;d31,42;;b0,0;;m0;;e0;;i;;lvalue;;pavatar;;p;;x;;x">
-<treenode node="avatar;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f23;42;30;42;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;80;19;80;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;43;18;43;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f11;74;16;74;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f17;42;22;42;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="openDialog;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;61;3;72;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d15,61;;b0,0;;m0;;e0;;i;;l">
+<treenode node="dialogRef;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f9;62;19;62;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vposopenDialog;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="deletePassword;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;23;3;25;;;;vpos;;v;;a;;r;;d29,23;;b0,0;;m0;;e0;;i;;lpasswordKey;;p;;x">
-<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;24;18;24;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f13;69;17;69;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="avatar;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f18;69;24;69;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="avatar;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f10;75;16;75;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vposonSubmit;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="age;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="passwordKey;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f17;23;28;23;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="getAvatars;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;10;3;12;;;;vpos;;v;;a;;r;;d14,10;;b0,0;;m0;;e0;;i;;l">
-<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f18;11;20;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f38;67;44;67;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="getPassword;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;14;3;16;;;;vpos;;v;;a;;r;;d26,14;;b0,0;;m0;;e0;;i;;lpasswordKey;;p;;x">
-<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;15;18;15;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
-<treenode node="nameToSearch;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f10;19;22;19;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;15;13;15;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="passwordKey;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f14;14;25;14;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;16;6;16;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="validation_messages;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f0;18;2;31;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vposString;;v;;a;;r;;d24,18;;b0,0;;m0;;e0;;i;;l">
+<treenode node="message;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f24;20;32;20;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;9;8;9;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="getPasswords;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;27;3;29;;;;vpos;;v;;a;;r;;d16,27;;b0,0;;m0;;e0;;i;;l">
-<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;28;18;28;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="searchUsers;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;31;3;35;;;;vpos;;v;;a;;r;;d26,31;;b0,0;;m0;;e0;;i;;lsearchValue;;p;;x">
-<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;32;18;32;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="EditPasswordResolver;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f7;5;1;21;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;9;29;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;29;10;;;;vpos;;v;;aObject_;;cResolve;;c;;r;;d58,5;;b0,0;;m0;;e1;;i;;lfirebaseService;;pFirebaseService;;x">
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f0;7;58;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;;;vpos;;v;;a;;r;;d55,7;;b0,0;;m0;;e0;;i;;lfirebaseService;;pFirebaseService;;x">
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f20;7;36;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="ref;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f38;32;41;32;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="searchValue;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f14;31;25;31;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="resolve;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f0;9;3;20;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;;;vpos;;v;;a;;r;;d42,9;;b0,0;;m0;;e0;;i;;lroute;;pActivatedRouteSnapshot;;x">
+<treenode node="data;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f0;15;12;15;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f11;13;26;13;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="searchUsersByAge;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;37;3;39;;;;vpos;;v;;a;;r;;d25,37;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
-<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;38;18;38;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="passwordId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f9;12;20;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;;;vpos;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="ref;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f38;38;41;38;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="route;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f10;9;15;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;9;8;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;10;8;10;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f19;37;24;37;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="updatePassword;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;18;3;21;;;;vpos;;v;;a;;r;;d36,18;;b0,0;;m0;;e0;;i;;lpasswordKey;;pvalue;;p;;x;;x">
-<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;20;18;20;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="FirebaseService;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;24;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;24;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f7;6;1;71;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;24;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;24;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;24;18;;;;vpos;;v;;aObject_;;c;;r;;d29,6;;b0,0;;m0;;e1;;i;;ldb;;pAngularFirestore;;x">
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;8;45;8;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d43,8;;b0,0;;m0;;e0;;i;;ldb;;pAngularFirestore;;x">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f20;8;23;8;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="passwordKey;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f17;18;28;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f29;18;35;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="createPassword;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;61;3;70;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d31,61;;b0,0;;m0;;e0;;i;;lvalue;;pavatar;;p;;x;;x">
+<treenode node="avatar;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f23;61;30;61;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;62;18;62;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f17;61;22;61;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="HomeComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f7;9;1;73;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d45,9;;b0,0;;m0;;e1;;i;;lfirebaseService;;prouter;;pFirebaseService;;xRouter;;x">
-<treenode node="capitalizeFirstLetter;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;39;3;41;;;;vpos;;v;;a;;r;;d30,39;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
-<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f24;39;29;39;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="deletePassword;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;41;3;43;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d29,41;;b0,0;;m0;;e0;;i;;lpasswordKey;;p;;x">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;42;18;42;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="combineLists;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;60;3;71;;;;vpos;;v;;a;;r;;d20,60;;b0,0;;m0;;e0;;i;;la;;pb;;p;;x;;x">
-<treenode node="a;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f15;60;16;60;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="passwordKey;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f17;41;28;41;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="b;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f17;60;19;60;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f7;61;14;61;;;;vposArray;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
+<treenode node="getAvatars;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;10;3;12;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d14,10;;b0,0;;m0;;e0;;i;;l">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f18;11;20;11;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="x;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f13;63;14;63;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="x2;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f22;64;24;64;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
-<treenode node="payload;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f14;65;21;65;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
-<treenode node="doc;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f22;65;25;65;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
-<treenode node="id;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f26;65;28;65;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="getGamingPasswords;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;18;3;22;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d22,18;;b0,0;;m0;;e0;;i;;l">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f17;19;19;19;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="ref;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f43;19;46;19;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
+<treenode node="getGeneralPasswords;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;30;3;34;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d23,30;;b0,0;;m0;;e0;;i;;l">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f17;31;19;31;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="ref;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f43;31;46;31;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="nameToSearch;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f10;37;22;37;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;17;7;20;;;;vpos;;v;;a;;r;;d4,20;;b0,0;;m0;;e0;;i;;lfirebaseService;;prouter;;pFirebaseService;;xRouter;;x">
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f10;18;26;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;19;18;19;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="getPassword;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;14;3;16;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d26,14;;b0,0;;m0;;e0;;i;;lpasswordKey;;p;;x">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;15;18;15;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="nameToSearch;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="getData;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;26;3;33;;;;vpos;;v;;a;;r;;d11,26;;b0,0;;m0;;e0;;i;;l">
-<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;30;29;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f9;27;24;27;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="passwordKey;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f14;14;25;14;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;29;16;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;31;30;31;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="getPasswords;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;45;3;47;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d16,45;;b0,0;;m0;;e0;;i;;l">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;46;18;46;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f15;28;21;28;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="getSocialPasswords;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;24;3;28;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d22,24;;b0,0;;m0;;e0;;i;;l">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f17;25;19;25;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;22;3;24;;;;vpos;;v;;a;;r;;d13,22;;b0,0;;m0;;e0;;i;;l">
+<treenode node="ref;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f43;25;46;25;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="rangeChange;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;52;3;58;;;;vpos;;v;;a;;r;;d20,52;;b0,0;;m0;;e0;;i;;levent;;p;;x">
-<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;55;29;55;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="event;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f14;52;19;52;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="searchCategories;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;55;3;59;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d31,55;;b0,0;;m0;;e0;;i;;lsearchValue;;p;;x">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;56;18;56;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f9;53;24;53;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="ref;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f42;56;45;56;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;56;16;56;;;;vposrangeChange;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="searchValue;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f19;55;30;55;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f50;56;69;56;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f15;54;21;54;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="searchUsers;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;49;3;53;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d26,49;;b0,0;;m0;;e0;;i;;lsearchValue;;p;;x">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;50;18;50;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="ref;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f42;50;45;50;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="searchByName;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;43;3;50;;;;vpos;;v;;a;;r;;d16,43;;b0,0;;m0;;e0;;i;;l">
-<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f50;48;68;48;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="searchValue;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f14;49;25;49;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f9;45;24;45;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;48;16;48;;;;vpossearchByName;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="searchUsersByAge;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d25,37;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;38;18;38;;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;47;30;47;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="ref;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f38;38;41;38;;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f15;46;21;46;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f19;37;24;37;;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f7;44;13;44;;;;vpossearchByName;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="updatePassword;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f0;36;3;39;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d36,36;;b0,0;;m0;;e0;;i;;lpasswordKey;;pvalue;;p;;x;;x">
+<treenode node="db;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f16;38;18;38;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="viewDetails;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;35;3;37;;;;vpos;;v;;a;;r;;d19,35;;b0,0;;m0;;e0;;i;;litem;;p;;x">
-<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f14;35;18;35;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="passwordKey;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f17;36;28;36;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f9;36;15;36;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f29;36;35;36;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;5;8;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;18;8;18;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="ageValue;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;11;10;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;14;20;14;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="GamingComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f7;9;1;64;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;24;29;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d47,9;;b0,0;;m0;;e1;;i;;lfirebaseService;;prouter;;pFirebaseService;;xRouter;;x">
+<treenode node="capitalizeFirstLetter;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;38;3;40;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d30,38;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f24;38;29;38;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;13;7;13;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;15;21;15;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="combineLists;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;51;3;62;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d20,51;;b0,0;;m0;;e0;;i;;la;;pb;;p;;x;;x">
+<treenode node="a;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f15;51;16;51;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="searchValue;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;12;13;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="b;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f17;51;19;51;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f7;52;14;52;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vposArray;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="ImageDialogComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f7;9;1;31;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d52,9;;b0,0;;m0;;e1;;i;;ldialogRef;;pImageDialogComponent;;pfirebaseService;;pMatDialogRef;;x;;xFirebaseService;;x">
-<treenode node="close;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f0;27;3;29;;;;vpos;;v;;a;;r;;d15,27;;b0,0;;m0;;e0;;i;;lavatar;;p;;x">
-<treenode node="avatar;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f8;27;14;27;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="x;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f13;54;14;54;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="dialogRef;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f9;28;18;28;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="x2;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f22;55;24;55;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="payload;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f14;56;21;56;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="doc;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f22;56;25;56;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="id;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f26;56;28;56;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f38;11;7;16;;;;vpos;;v;;a;;r;;d4,16;;b0,0;;m0;;e0;;i;;ldialogRef;;pImageDialogComponent;;pfirebaseService;;pMatDialogRef;;x;;xFirebaseService;;x">
-<treenode node="ImageDialogComponent;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f35;14;55;14;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="dialogRef;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f10;14;20;14;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f10;15;26;15;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;16;7;19;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d4,19;;b0,0;;m0;;e0;;i;;lfirebaseService;;prouter;;pFirebaseService;;xRouter;;x">
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f10;17;26;17;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="getData;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f0;22;3;25;;;;vpos;;v;;a;;r;;d11,22;;b0,0;;m0;;e0;;i;;l">
-<treenode node="avatars;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f28;24;35;24;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f11;18;18;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="data;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f15;24;19;24;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f9;23;24;23;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="getData;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;25;3;32;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d11,25;;b0,0;;m0;;e0;;i;;l">
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f11;29;29;29;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f9;26;24;26;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f0;18;3;20;;;;vpos;;v;;a;;r;;d13,18;;b0,0;;m0;;e0;;i;;l">
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f11;28;16;28;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="Array;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f27;11;33;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f11;30;30;30;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="avatars;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f0;11;9;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f15;27;21;27;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="NewPasswordComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f7;12;1;85;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d52,12;;b0,0;;m0;;e1;;i;;lfb;;pdialog;;prouter;;pfirebaseService;;pFormBuilder;;xMatDialog;;xRouter;;xFirebaseService;;x">
-<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;32;7;37;;;;vpos;;v;;a;;r;;d4,37;;b0,0;;m0;;e0;;i;;lfb;;pdialog;;prouter;;pfirebaseService;;pFormBuilder;;xMatDialog;;xRouter;;xFirebaseService;;x">
-<treenode node="dialog;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f10;34;17;34;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;21;3;23;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d13,21;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="fb;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f11;33;14;33;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="searchByName;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;42;3;49;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d16,42;;b0,0;;m0;;e0;;i;;l">
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f50;47;68;47;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f10;36;26;36;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f9;44;24;44;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f11;35;18;35;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f11;47;16;47;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpossearchByName;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f11;46;30;46;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="createForm;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;43;3;50;;;;vpos;;v;;a;;r;;d15,43;;b0,0;;m0;;e0;;i;;l">
-<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;44;20;44;;;;vposcreateForm;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f15;45;21;45;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f7;43;13;43;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpossearchByName;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;39;3;41;;;;vpos;;v;;a;;r;;d13,39;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="onSubmit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;75;3;83;;;;vpos;;v;;a;;r;;d17,75;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
-<treenode node="avatarLink;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f52;76;62;76;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="viewDetails;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;34;3;36;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d19,34;;b0,0;;m0;;e0;;i;;litem;;p;;x">
+<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f14;34;18;34;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;76;24;76;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f9;35;15;35;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="res;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;78;9;78;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f13;80;19;80;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;13;20;13;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f11;75;16;75;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;12;7;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;14;21;14;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="openDialog;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;52;3;63;;;;vpos;;v;;a;;r;;d15,52;;b0,0;;m0;;e0;;i;;l">
-<treenode node="avatarLink;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f13;60;23;60;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="searchValue;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f0;11;13;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;29;8;29;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="dialogRef;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;53;19;53;;;;vposopenDialog;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f38;58;44;58;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="GeneralComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\general\general.component.ts;f7;7;1;14;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;31;25;31;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d48,7;;b0,0;;m0;;e1;;i;;l">
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\general\general.component.ts;f0;9;19;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;31;8;31;;;;vpos;;v;;a;;r;;d16,9;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\general\general.component.ts;f0;11;3;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;31;8;31;;;;vpos;;v;;a;;r;;d13,11;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="resetFields;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;65;3;73;;;;vpos;;v;;a;;r;;d15,65;;b0,0;;m0;;e0;;i;;l">
-<treenode node="avatarLink;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;66;19;66;;;;vposString;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;67;20;67;;;;vposresetFields;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+<treenode node="HomeComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f7;9;1;67;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;22;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;22;12;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d45,9;;b0,0;;m0;;e1;;i;;lfirebaseService;;prouter;;pFirebaseService;;xRouter;;x">
+<treenode node="capitalizeFirstLetter;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;41;3;43;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d30,41;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f24;41;29;41;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="avatarLink;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;15;12;15;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="combineLists;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;54;3;65;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d20,54;;b0,0;;m0;;e0;;i;;la;;pb;;p;;x;;x">
+<treenode node="a;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f15;54;16;54;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;14;13;14;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="b;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f17;54;19;54;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="validation_messages;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;17;2;30;;;;vposString;;v;;a;;r;;d24,17;;b0,0;;m0;;e0;;i;;l">
-<treenode node="message;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f24;19;32;19;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f7;55;14;55;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vposArray;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="x;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f13;57;14;57;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
+<treenode node="x2;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f22;58;24;58;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="payload;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f14;59;21;59;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="doc;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f22;59;25;59;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="id;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f26;59;28;59;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="TopnavComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\topnav\topnav.component.ts;f7;7;1;14;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d47,7;;b0,0;;m0;;e1;;i;;l">
-<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\topnav\topnav.component.ts;f0;9;19;9;;;;vpos;;v;;a;;r;;d16,9;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\topnav\topnav.component.ts;f0;11;3;12;;;;vpos;;v;;a;;r;;d13,11;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+</treenode>
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;17;7;20;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d4,20;;b0,0;;m0;;e0;;i;;lfirebaseService;;prouter;;pFirebaseService;;xRouter;;x">
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f10;18;26;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;19;18;19;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="getData;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;26;3;35;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d11,26;;b0,0;;m0;;e0;;i;;l">
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;30;29;30;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f9;27;24;27;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;29;16;29;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;31;30;31;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f15;28;21;28;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="totalPasswords;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;33;25;33;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vposgetData;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;22;3;24;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d13,22;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="rangeChange;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d20,52;;b0,0;;m0;;e0;;i;;levent;;p;;x">
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="event;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vposrangeChange;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="searchByName;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;45;3;52;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d16,45;;b0,0;;m0;;e0;;i;;l">
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f50;50;68;50;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f9;47;24;47;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;50;16;50;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpossearchByName;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f11;49;30;49;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f15;48;21;48;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f7;46;13;46;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpossearchByName;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="viewDetails;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;37;3;39;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d19,37;;b0,0;;m0;;e0;;i;;litem;;p;;x">
+<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f14;37;18;37;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f9;38;15;38;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="ageValue;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;13;20;13;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;12;7;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;14;21;14;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="searchValue;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;11;13;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;1;8;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="totalPasswords;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f0;15;16;15;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;12;8;12;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="ImageDialogComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f7;9;1;31;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;29;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;29;8;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d52,9;;b0,0;;m0;;e1;;i;;ldialogRef;;pImageDialogComponent;;pfirebaseService;;pMatDialogRef;;x;;xFirebaseService;;x">
+<treenode node="close;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f0;27;3;29;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d15,27;;b0,0;;m0;;e0;;i;;lavatar;;p;;x">
+<treenode node="avatar;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f8;27;14;27;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="dialogRef;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f9;28;18;28;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f38;11;7;16;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d4,16;;b0,0;;m0;;e0;;i;;ldialogRef;;pImageDialogComponent;;pfirebaseService;;pMatDialogRef;;x;;xFirebaseService;;x">
+<treenode node="ImageDialogComponent;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f35;14;55;14;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="dialogRef;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f10;14;20;14;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f10;15;26;15;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="getData;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f0;22;3;25;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d11,22;;b0,0;;m0;;e0;;i;;l">
+<treenode node="avatars;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f28;24;35;24;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="data;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f15;24;19;24;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f9;23;24;23;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f0;18;3;20;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d13,18;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="Array;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f27;11;33;11;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="avatars;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f0;11;9;11;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;4;8;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;8;8;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="LoginComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\login\login.component.ts;f7;8;1;14;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;27;23;27;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d46,8;;b0,0;;m0;;e1;;i;;lauthService;;pAuthService;;x">
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\login\login.component.ts;f0;10;53;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;27;8;27;;;;vpos;;v;;a;;r;;d50,10;;b0,0;;m0;;e0;;i;;lauthService;;pAuthService;;x">
+<treenode node="authService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\login\login.component.ts;f21;10;34;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;27;8;27;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\login\login.component.ts;f0;12;3;13;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;27;8;27;;;;vpos;;v;;a;;r;;d13,12;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="NewPasswordComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f7;12;1;85;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;29;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;29;11;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d52,12;;b0,0;;m0;;e1;;i;;lfb;;pdialog;;prouter;;pfirebaseService;;pFormBuilder;;xMatDialog;;xRouter;;xFirebaseService;;x">
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;32;7;37;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d4,37;;b0,0;;m0;;e0;;i;;lfb;;pdialog;;prouter;;pfirebaseService;;pFormBuilder;;xMatDialog;;xRouter;;xFirebaseService;;x">
+<treenode node="dialog;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f10;34;17;34;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="fb;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f11;33;14;33;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f10;36;26;36;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f11;35;18;35;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="createForm;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;43;3;50;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d15,43;;b0,0;;m0;;e0;;i;;l">
+<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;44;20;44;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vposcreateForm;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;39;3;41;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d13,39;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="onSubmit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;75;3;83;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d17,75;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
+<treenode node="avatarLink;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f52;76;62;76;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;76;24;76;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="res;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;78;9;78;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f13;80;19;80;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f11;75;16;75;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="openDialog;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;52;3;63;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d15,52;;b0,0;;m0;;e0;;i;;l">
+<treenode node="avatarLink;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f13;60;23;60;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="dialogRef;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;53;19;53;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vposopenDialog;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f38;58;44;58;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="resetFields;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;65;3;73;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d15,65;;b0,0;;m0;;e0;;i;;l">
+<treenode node="avatarLink;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;66;19;66;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vposString;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f9;67;20;67;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vposresetFields;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="avatarLink;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;15;12;15;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="exampleForm;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;14;13;14;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="validation_messages;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f0;17;2;30;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vposString;;v;;a;;r;;d24,17;;b0,0;;m0;;e0;;i;;l">
+<treenode node="message;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f24;19;32;19;;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;7;8;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;11;8;11;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+</treenode>
+<treenode node="RegisterComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\register\register.component.ts;f7;7;1;14;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;28;26;28;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d49,7;;b0,0;;m0;;e1;;i;;l">
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\register\register.component.ts;f0;9;19;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;28;8;28;;;;vpos;;v;;a;;r;;d16,9;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\register\register.component.ts;f0;11;3;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;28;8;28;;;;vpos;;v;;a;;r;;d13,11;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="SocialmediaComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f7;9;1;64;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;29;30;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d52,9;;b0,0;;m0;;e1;;i;;lfirebaseService;;prouter;;pFirebaseService;;xRouter;;x">
+<treenode node="capitalizeFirstLetter;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;38;3;40;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d30,38;;b0,0;;m0;;e0;;i;;lvalue;;p;;x">
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f24;38;29;38;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="combineLists;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;51;3;62;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d20,51;;b0,0;;m0;;e0;;i;;la;;pb;;p;;x;;x">
+<treenode node="a;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f15;51;16;51;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="b;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f17;51;19;51;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f7;52;14;52;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vposArray;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="x;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f13;54;14;54;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="x2;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f22;55;24;55;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="payload;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f14;56;21;56;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="doc;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f22;56;25;56;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="id;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f26;56;28;56;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+</treenode>
+</treenode>
+</treenode>
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;16;7;19;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d4,19;;b0,0;;m0;;e0;;i;;lfirebaseService;;prouter;;pFirebaseService;;xRouter;;x">
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f10;17;26;17;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f11;18;18;18;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="getData;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;25;3;32;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d11,25;;b0,0;;m0;;e0;;i;;l">
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f11;29;29;29;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f9;26;24;26;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f11;28;16;28;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f11;30;30;30;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f15;27;21;27;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;21;3;23;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d13,21;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="searchByName;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;42;3;49;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d16,42;;b0,0;;m0;;e0;;i;;l">
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f50;47;68;47;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="firebaseService;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f9;44;24;44;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f11;47;16;47;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpossearchByName;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f11;46;30;46;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="result;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f15;45;21;45;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="value;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f7;43;13;43;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpossearchByName;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="viewDetails;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;34;3;36;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d19,34;;b0,0;;m0;;e0;;i;;litem;;p;;x">
+<treenode node="item;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f14;34;18;34;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f9;35;15;35;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,2;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="age_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;13;20;13;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;12;7;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="name_filtered_items;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;14;21;14;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="searchValue;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f0;11;13;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;30;8;30;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+</treenode>
+<treenode node="TopnavComponent;JS:Class Name;C:\Users\Greg\Desktop\passtracker\src\app\ui\topnav\topnav.component.ts;f7;7;1;14;;;;vpos;;v;;aObject_;;cOnInit;;c;;r;;d47,7;;b0,0;;m0;;e1;;i;;l">
+<treenode node="constructor;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\ui\topnav\topnav.component.ts;f0;9;19;9;;;;vpos;;v;;a;;r;;d16,9;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="ngOnInit;JS:Function Name;C:\Users\Greg\Desktop\passtracker\src\app\ui\topnav\topnav.component.ts;f0;11;3;12;;;;vpos;;v;;a;;r;;d13,11;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
 <treenode node="ActivatedRoute;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f41;1;56;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;1;23;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="ActivatedRouteSnapshot;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f17;1;40;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="AngularFireModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;14;26;14;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="AngularFireAuth;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f8;3;24;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="AngularFireAuthModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;19;30;19;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="AngularFireModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;15;26;15;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="AngularFirestore;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f8;1;25;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="AngularFirestoreModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;15;31;15;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="AngularFirestoreModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;16;31;16;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="BrowserAnimationsModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;19;31;19;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="BrowserAnimationsModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;21;31;21;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="BrowserModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;0;22;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="CUSTOM_ELEMENTS_SCHEMA;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f18;1;41;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="Component;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\topnav\topnav.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\app.component.ts;f8;0;18;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="Component;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\ui\topnav\topnav.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\register\register.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\login\login.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\general\general.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;0;18;0;;C:\Users\Greg\Desktop\passtracker\src\app\app.component.ts;f8;0;18;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="ComponentFixture;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\topnav\topnav.component.spec.ts;f15;0;32;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="ComponentFixture;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\ui\topnav\topnav.component.spec.ts;f15;0;32;0;;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.spec.ts;f15;0;32;0;;C:\Users\Greg\Desktop\passtracker\src\app\register\register.component.spec.ts;f15;0;32;0;;C:\Users\Greg\Desktop\passtracker\src\app\login\login.component.spec.ts;f15;0;32;0;;C:\Users\Greg\Desktop\passtracker\src\app\general\general.component.spec.ts;f15;0;32;0;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.spec.ts;f15;0;32;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="FormBuilder;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f8;1;20;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;2;20;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
@@ -369,75 +619,87 @@
 </treenode>
 <treenode node="FormsModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f29;2;41;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="Injectable;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f8;0;19;0;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f8;0;19;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="Injectable;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f8;0;19;0;;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f8;0;19;0;;C:\Users\Greg\Desktop\passtracker\src\app\services\firebase.service.ts;f8;0;19;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="MatButtonModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;20;23;20;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="MatButtonModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;22;23;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="MatCardModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f127;22;141;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="MatDialog;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f8;2;18;2;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;3;18;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="MatDialogModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f57;20;73;20;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="MatDialogModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f57;22;73;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="MatDialogRef;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f8;2;21;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="MatInputModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f24;20;39;20;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="MatExpansionModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f142;22;161;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="MatSliderModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f40;20;56;20;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="MatIconModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;23;22;23;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="MatToolbarModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f92;20;109;20;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="MatInputModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f24;22;39;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="MatTooltipModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f74;20;91;20;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="MatSelectModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f110;22;126;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="MatSliderModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f40;22;56;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="MatToolbarModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f92;22;109;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="MatTooltipModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f74;22;91;22;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="NgModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;1;17;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="OnInit;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\topnav\topnav.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f19;0;26;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="OnInit;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\image-dialog\image-dialog.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\ui\topnav\topnav.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\register\register.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\login\login.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\general\general.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f19;0;26;0;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f19;0;26;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="Params;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f16;2;23;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="Params;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f16;2;23;2;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f16;2;23;2;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f16;2;23;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="ReactiveFormsModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;2;28;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="Resolve;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.resolver.ts;f8;1;16;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="Router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f8;4;15;4;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;2;15;2;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;6;15;6;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="Router;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f8;4;15;4;;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.ts;f8;2;15;2;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.ts;f8;2;15;2;;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f8;1;15;1;;C:\Users\Greg\Desktop\passtracker\src\app\home\home.component.ts;f8;2;15;2;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f8;6;15;6;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="RouterModule;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;4;21;4;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="Routes;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f8;0;15;0;;;;vposArray;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="TestBed;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\topnav\topnav.component.spec.ts;f33;0;41;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="TestBed;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\ui\topnav\topnav.component.spec.ts;f33;0;41;0;;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.spec.ts;f33;0;41;0;;C:\Users\Greg\Desktop\passtracker\src\app\register\register.component.spec.ts;f33;0;41;0;;C:\Users\Greg\Desktop\passtracker\src\app\login\login.component.spec.ts;f33;0;41;0;;C:\Users\Greg\Desktop\passtracker\src\app\general\general.component.spec.ts;f33;0;41;0;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.spec.ts;f33;0;41;0;;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.spec.ts;f8;0;16;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="User;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f8;4;13;4;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="Validators;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\new-password\new-password.component.ts;f32;1;43;1;;C:\Users\Greg\Desktop\passtracker\src\app\edit-password\edit-password.component.ts;f32;2;43;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="async;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\topnav\topnav.component.spec.ts;f8;0;14;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="async;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\ui\topnav\topnav.component.spec.ts;f8;0;14;0;;C:\Users\Greg\Desktop\passtracker\src\app\socialmedia\socialmedia.component.spec.ts;f8;0;14;0;;C:\Users\Greg\Desktop\passtracker\src\app\register\register.component.spec.ts;f8;0;14;0;;C:\Users\Greg\Desktop\passtracker\src\app\login\login.component.spec.ts;f8;0;14;0;;C:\Users\Greg\Desktop\passtracker\src\app\general\general.component.spec.ts;f8;0;14;0;;C:\Users\Greg\Desktop\passtracker\src\app\gaming\gaming.component.spec.ts;f8;0;14;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+</treenode>
+<treenode node="auth;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\auth\auth.service.ts;f8;2;13;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="enableProdMode;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\main.ts;f8;0;23;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="environment;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f12;4;1;16;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f12;0;1;12;;;;vposObject_;;v;;a;;r;;d27,4;;b0,0;;m0;;e3;;i;;l">
-<treenode node="firebase;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;6;3;15;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;2;3;11;;;;vposObject_;;v;;a;;r;;d12,6;;b0,0;;m0;;e0;;i;;l">
-<treenode node="apiKey;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;7;10;7;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;3;10;3;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="environment;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f12;4;1;16;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f12;0;1;12;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;20;17;;;;vposObject_;;v;;a;;r;;d27,4;;b0,0;;m0;;e3;;i;;l">
+<treenode node="firebase;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;6;3;15;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;2;3;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vposObject_;;v;;a;;r;;d12,6;;b0,0;;m0;;e0;;i;;l">
+<treenode node="apiKey;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;7;10;7;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;3;10;3;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="appId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;13;9;13;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;9;9;9;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="appId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;13;9;13;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;9;9;9;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="authDomain;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;8;14;8;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;4;14;4;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="authDomain;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;8;14;8;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;4;14;4;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="databaseURL;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;9;15;9;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;5;15;5;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="databaseURL;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;9;15;9;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;5;15;5;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="measurementId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;14;17;14;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;10;17;10;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="measurementId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;14;17;14;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;10;17;10;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="messagingSenderId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;12;21;12;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;8;21;8;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="messagingSenderId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;12;21;12;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;8;21;8;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="projectId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;10;13;10;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;6;13;6;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="projectId;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;10;13;10;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;6;13;6;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="storageBucket;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;11;17;11;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;7;17;7;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="storageBucket;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;11;17;11;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;7;17;7;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vposString;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
-<treenode node="production;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;5;12;5;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;1;12;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
+<treenode node="production;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\environments\environment.ts;f0;5;12;5;;C:\Users\Greg\Desktop\passtracker\src\environments\environment.prod.ts;f0;1;12;1;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;17;8;17;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 </treenode>
 <treenode node="err;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\main.ts;f9;11;12;11;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
 <treenode node="platformBrowserDynamic;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\main.ts;f8;1;31;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i;;l">
 </treenode>
-<treenode node="rootRouterConfig;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f12;6;29;6;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e3;;i;;l">
+<treenode node="rootRouterConfig;JS:JS Var Name;C:\Users\Greg\Desktop\passtracker\src\app\app.routes.ts;f12;11;29;11;;C:\Users\Greg\Desktop\passtracker\src\app\app.module.ts;f8;5;25;5;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e3;;i;;l">
 </treenode>
 </jstree>
 <pythontree>
