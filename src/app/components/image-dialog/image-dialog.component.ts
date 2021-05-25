@@ -4,8 +4,8 @@ import { MatDialogRef } from '@angular/material';
 
 @Component({
   selector: 'app-avatar-dialog',
-  templateUrl: './avatar-dialog.component.html',
-  styleUrls: ['./avatar-dialog.component.scss']
+  templateUrl: './image-dialog.component.html',
+  styleUrls: ['./image-dialog.component.scss']
 })
 export class ImageDialogComponent implements OnInit {
 
