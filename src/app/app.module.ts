@@ -41,6 +41,7 @@ import { SocialmediaComponent } from './components/socialmedia/socialmedia.compo
 import { GeneralComponent } from './components/general/general.component';
 import { LogoutComponent } from './components/logout/logout.component';
 import { EmailComponent } from './components/email/email.component';
+import { ShowpasswordComponent } from './showpassword/showpassword.component';
 
 
 @NgModule({
@@ -57,7 +58,8 @@ import { EmailComponent } from './components/email/email.component';
     GeneralComponent,
     LogoutComponent,
     EmailComponent,
-    
+    ShowpasswordComponent,
+
   ],
   entryComponents: [ImageDialogComponent],
   imports: [
