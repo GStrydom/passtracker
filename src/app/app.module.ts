@@ -40,6 +40,7 @@ import { GamingComponent } from './components/gaming/gaming.component';
 import { SocialmediaComponent } from './components/socialmedia/socialmedia.component';
 import { GeneralComponent } from './components/general/general.component';
 import { LogoutComponent } from './components/logout/logout.component';
+import { EmailComponent } from './components/email/email.component';
 
 
 @NgModule({
@@ -55,6 +56,7 @@ import { LogoutComponent } from './components/logout/logout.component';
     SocialmediaComponent,
     GeneralComponent,
     LogoutComponent,
+    EmailComponent,
     
   ],
   entryComponents: [ImageDialogComponent],
