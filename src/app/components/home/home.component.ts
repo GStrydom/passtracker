@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from '../../services/firebase.service';
 import { Router, Params } from '@angular/router';
+import { MatDialog } from '@angular/material';
+import { ShowpasswordComponent } from '../showpassword/showpassword.component';
 
 @Component({
   selector: 'app-home',
@@ -16,7 +18,7 @@ export class HomeComponent implements OnInit {
   duplicates: number = 0;
   weakpasswords: number = 0;
 
-  constructor(public firebaseService: FirebaseService, private router: Router) {}
+  constructor(public firebaseService: FirebaseService, private router: Router, public dialog: MatDialog) {}
 
   ngOnInit() {
     this.getData();
@@ -56,5 +58,12 @@ export class HomeComponent implements OnInit {
       this.name_filtered_items = result;
       this.items = result;
     })
+  }
+
+  openDialog() {
+    const dialogRef = this.dialog.open(ShowpasswordComponent, {
+      height: '400px',
+      width: '400px'
+    });
   }
 }
