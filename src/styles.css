@@ -45,3 +45,8 @@ body {
 .logout-link, .logout-link:hover {
 	color: white;
 }
+
+.cat-card {
+	background: #333333;
+	color: white;
+}
