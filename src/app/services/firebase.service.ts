@@ -22,6 +22,12 @@ export class FirebaseService {
       .snapshotChanges()
   }
 
+  getEmailPasswords(){
+     return this.db.collection('passwords',ref => ref.where('category', '>=', 'email')
+      .where('category', '<=', 'email' + '\uf8ff'))
+      .snapshotChanges()
+  }
+
   getSocialPasswords(){
      return this.db.collection('passwords',ref => ref.where('category', '>=', 'social')
       .where('category', '<=', 'social' + '\uf8ff'))
