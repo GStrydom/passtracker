@@ -50,3 +50,7 @@ body {
 	background: #333333;
 	color: white;
 }
+
+.edit-but {
+  padding-left: 1em;
+}
