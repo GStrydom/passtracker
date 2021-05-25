@@ -40,10 +40,10 @@
         <small>Category: {{item.payload.doc.data().category}}</small>
       </div>
       <div class="col col-md-2 actions-col">
-        <button matTooltip="View Password" matTooltipPosition="above" class="btn btn-outline-primary action" (click)="viewDetails(item)" type="button">
+        <button matTooltip="View Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-primary action" (click)="openDialog()" type="button">
           <ion-icon class="icon" name="eye"></ion-icon>
         </button>&nbsp;
-        <button matTooltip="Edit Password" matTooltipPosition="above" class="btn btn-outline-primary action" (click)="viewDetails(item)" type="button">
+        <button matTooltip="Edit Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-primary action" (click)="viewDetails(item)" type="button">
           <ion-icon class="icon" name="create"></ion-icon>
         </button>
       </div>
