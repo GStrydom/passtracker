@@ -13,6 +13,7 @@ export class GeneralComponent implements OnInit {
   items: Array<any>;
   age_filtered_items: Array<any>;
   name_filtered_items: Array<any>;
+  totalPasswords: number = 0;
 
   constructor(
     public firebaseService: FirebaseService,
@@ -29,6 +30,7 @@ export class GeneralComponent implements OnInit {
       this.items = result;
       this.age_filtered_items = result;
       this.name_filtered_items = result;
+      this.totalPasswords = this.name_filtered_items.length;
     })
   }
 
