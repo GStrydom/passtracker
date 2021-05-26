@@ -11,9 +11,9 @@ import { ShowpasswordComponent } from '../showpassword/showpassword.component';
 })
 export class HomeComponent implements OnInit {
 
-  searchValue: string = "";
+  searchValue: string = '';
   items: Array<any>;
-  name_filtered_items: Array<any>;
+  nameFilteredItems: Array<any>;
   totalPasswords: number = 0;
   duplicates: number = 0;
   weakpasswords: number = 0;
@@ -24,13 +24,13 @@ export class HomeComponent implements OnInit {
     this.getData();
   }
 
-  getData(){
+  getData() {
     this.firebaseService.getPasswords()
     .subscribe(result => {
       this.items = result;
-      this.name_filtered_items = result;
-      this.totalPasswords = this.name_filtered_items.length;
-    })
+      this.nameFilteredItems = result;
+      this.totalPasswords = this.nameFilteredItems.length;
+    });
   }
 
   hasDuplicates(arr) {
@@ -38,26 +38,26 @@ export class HomeComponent implements OnInit {
   }
 
   checkForDuplicates() {
-    if(this.hasDuplicates(this.items)) {
+    if (this.hasDuplicates(this.items)) {
         this.duplicates += 1;
-    } 
+    }
   }
 
-  viewDetails(item){
-    this.router.navigate(['/details/'+ item.payload.doc.id]);
+  viewDetails(item) {
+    this.router.navigate(['/details/' + item.payload.doc.id]);
   }
 
-  capitalizeFirstLetter(value){
+  capitalizeFirstLetter(value) {
     return value.charAt(0).toUpperCase() + value.slice(1);
   }
 
-  searchByName(){
-    let value = this.searchValue.toLowerCase();
+  searchByName() {
+    const value = this.searchValue.toLowerCase();
     this.firebaseService.searchUsers(value)
     .subscribe(result => {
-      this.name_filtered_items = result;
+      this.nameFilteredItems = result;
       this.items = result;
-    })
+    });
   }
 
   openDialog() {
