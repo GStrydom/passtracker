@@ -18,7 +18,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { FirebaseService } from './services/firebase.service';
-import { AngularFireAuthModule } from  "@angular/fire/auth";
+import { AngularFireAuthModule } from  '@angular/fire/auth';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
@@ -59,9 +59,8 @@ import { ShowpasswordComponent } from './components/showpassword/showpassword.co
     LogoutComponent,
     EmailComponent,
     ShowpasswordComponent,
-
   ],
-  entryComponents: [ImageDialogComponent],
+  entryComponents: [ImageDialogComponent, ShowpasswordComponent],
   imports: [
     BrowserModule,
     FormsModule,
