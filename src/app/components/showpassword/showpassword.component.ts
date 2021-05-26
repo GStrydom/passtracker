@@ -7,9 +7,6 @@ import { MatDialogRef } from '@angular/material';
   styleUrls: ['./showpassword.component.scss']
 })
 export class ShowpasswordComponent implements OnInit {
-
-  avatars: Array<any> = new Array<any>();
-
   constructor(
     public dialogRef: MatDialogRef<ShowpasswordComponent>,
   ) { }
@@ -18,8 +15,8 @@ export class ShowpasswordComponent implements OnInit {
 
   }
 
-  close(avatar) {
-    this.dialogRef.close(avatar);
+  close() {
+    this.dialogRef.close();
   }
 
 }
