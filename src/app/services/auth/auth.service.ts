@@ -13,7 +13,7 @@ export class AuthService {
     private router: Router) {}
 
   login(email: string, password: string) {
-    this.afAuth.auth.signInWithEmailAndPassword(email, password)
+    this.afAuth.signInWithEmailAndPassword(email, password)
     .then(value => {
       console.log('Nice, it worked!');
       this.router.navigateByUrl('/profile');
@@ -24,7 +24,7 @@ export class AuthService {
   }
 
   emailSignup(email: string, password: string) {
-    this.afAuth.auth.createUserWithEmailAndPassword(email, password)
+    this.afAuth.createUserWithEmailAndPassword(email, password)
     .then(value => {
      console.log('Sucess', value);
      this.router.navigateByUrl('/profile');
@@ -35,7 +35,7 @@ export class AuthService {
   }
 
   logout() {
-    this.afAuth.auth.signOut().then(() => {
+    this.afAuth.signOut().then(() => {
       this.router.navigate(['/']);
     });
   }
@@ -46,6 +46,6 @@ export class AuthService {
   }
 
   private oAuthLogin(provider) {
-    return this.afAuth.auth.signInWithPopup(provider);
+    return this.afAuth.signInWithPopup(provider);
   }
 }

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from '../../services/firebase.service';
-import { MatDialogRef } from '@angular/material';
+import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
-  selector: 'app-avatar-dialog',
+  selector: 'app-image-dialog',
   templateUrl: './image-dialog.component.html',
-  styleUrls: ['./image-dialog.component.scss']
+  styleUrls: ['./image-dialog.component.css']
 })
 export class ImageDialogComponent implements OnInit {
 

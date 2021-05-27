@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ShowpasswordComponent } from './showpassword.component';
 
@@ -6,12 +6,12 @@ describe('ShowpasswordComponent', () => {
   let component: ShowpasswordComponent;
   let fixture: ComponentFixture<ShowpasswordComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
       declarations: [ ShowpasswordComponent ]
     })
     .compileComponents();
-  }));
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ShowpasswordComponent);

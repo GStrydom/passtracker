@@ -5,7 +5,7 @@ import { Router, Params } from '@angular/router';
 @Component({
   selector: 'app-gaming',
   templateUrl: './socialmedia.component.html',
-  styleUrls: ['./socialmedia.component.scss']
+  styleUrls: ['./socialmedia.component.css']
 })
 export class SocialmediaComponent implements OnInit {
 

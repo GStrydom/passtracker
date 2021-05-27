@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 import { ImageDialogComponent } from '../image-dialog/image-dialog.component';
 import { FirebaseService } from '../../services/firebase.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-edit-user',
+  selector: 'app-edit-password',
   templateUrl: './edit-password.component.html',
-  styleUrls: ['./edit-password.component.scss']
+  styleUrls: ['./edit-password.component.css']
 })
 export class EditPasswordComponent implements OnInit {
 
