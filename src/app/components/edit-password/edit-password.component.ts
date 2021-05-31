@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { ImageDialogComponent } from '../image-dialog/image-dialog.component';
-import { FirebaseService } from '../../services/firebase.service';
+import { AuthService } from '../../services/auth/auth.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -32,7 +32,7 @@ export class EditPasswordComponent implements OnInit {
  };
 
   constructor(
-    public firebaseService: FirebaseService,
+    public firebaseService: AuthService,
     private route: ActivatedRoute,
     private fb: FormBuilder,
     private router: Router,

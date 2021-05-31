@@ -80,7 +80,6 @@ import { ShowpasswordComponent } from './components/showpassword/showpassword.co
     MatCardModule,
     MatExpansionModule,
     AngularFireAuthModule,
-
   ],
   providers: [FirebaseService, EditPasswordResolver, AuthService],
   bootstrap: [AppComponent],

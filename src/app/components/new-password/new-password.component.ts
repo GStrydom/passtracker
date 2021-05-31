@@ -3,12 +3,12 @@ import { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms'
 import { MatDialog } from '@angular/material/dialog';
 import { ImageDialogComponent } from "../image-dialog/image-dialog.component";
 import { Router } from '@angular/router';
-import { FirebaseService } from '../../services/firebase.service';
+import { AuthService } from '../../services/auth/auth.service';
 
 @Component({
   selector: 'app-new-user',
   templateUrl: './new-password.component.html',
-  styleUrls: ['./new-password.component.css']
+  styleUrls: ['./new-password.component.scss']
 })
 export class NewPasswordComponent implements OnInit {
 
@@ -34,7 +34,7 @@ export class NewPasswordComponent implements OnInit {
     private fb: FormBuilder,
     public dialog: MatDialog,
     private router: Router,
-    public firebaseService: FirebaseService
+    public firebaseService: AuthService
   ) { }
 
   ngOnInit() {

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { FirebaseService } from '../../services/firebase.service';
+import { AuthService } from '../../services/auth/auth.service';
 import { MatDialogRef } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-image-dialog',
   templateUrl: './image-dialog.component.html',
-  styleUrls: ['./image-dialog.component.css']
+  styleUrls: ['./image-dialog.component.scss']
 })
 export class ImageDialogComponent implements OnInit {
 
@@ -13,7 +13,7 @@ export class ImageDialogComponent implements OnInit {
 
   constructor(
     public dialogRef: MatDialogRef<ImageDialogComponent>,
-    public firebaseService: FirebaseService
+    public firebaseService: AuthService
   ) { }
 
   ngOnInit() {

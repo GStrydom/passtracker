@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FirebaseService } from '../../services/firebase.service';
+import { AuthService } from '../../services/auth/auth.service';
 import { Router, Params } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { ShowpasswordComponent } from '../showpassword/showpassword.component';
@@ -7,7 +7,7 @@ import { ShowpasswordComponent } from '../showpassword/showpassword.component';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
 
@@ -15,10 +15,11 @@ export class HomeComponent implements OnInit {
   items: Array<any>;
   nameFilteredItems: Array<any>;
   totalPasswords: number = 0;
+  dupArray: Array<any>;
   duplicates: number = 0;
   weakpasswords: number = 0;
 
-  constructor(public firebaseService: FirebaseService, private router: Router, public dialog: MatDialog) {}
+  constructor(public firebaseService: AuthService, private router: Router, public dialog: MatDialog) {}
 
   ngOnInit() {
     this.getData();
@@ -31,6 +32,9 @@ export class HomeComponent implements OnInit {
       this.nameFilteredItems = result;
       this.totalPasswords = this.nameFilteredItems.length;
     });
+    this.items.forEach(function(item) {
+      this.dupArray.push(item.payload.doc.data()['website'])    
+    })
   }
 
   hasDuplicates(arr) {
@@ -38,7 +42,7 @@ export class HomeComponent implements OnInit {
   }
 
   checkForDuplicates() {
-    if (this.hasDuplicates(this.items)) {
+    if (this.hasDuplicates(this.dupArray)) {
         this.duplicates += 1;
     }
   }

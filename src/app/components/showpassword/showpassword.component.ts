@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
-import { FirebaseService } from '../../services/firebase.service';
+import { AuthService } from '../../services/auth/auth.service';
 import { Router, Params } from '@angular/router';
 
 @Component({
   selector: 'app-showpassword',
   templateUrl: './showpassword.component.html',
-  styleUrls: ['./showpassword.component.css']
+  styleUrls: ['./showpassword.component.scss']
 })
 export class ShowpasswordComponent implements OnInit {
     items: Array<any>;
     itemId: string = '';
 
   constructor(
-    public dialogRef: MatDialogRef<ShowpasswordComponent>, public firebaseService: FirebaseService,
+    public dialogRef: MatDialogRef<ShowpasswordComponent>, public firebaseService: AuthService,
   ) { }
 
   ngOnInit() {

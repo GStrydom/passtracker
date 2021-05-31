@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { FirebaseService } from '../../services/firebase.service';
+import { AuthService } from '../../services/auth/auth.service';
 import { Router, Params } from '@angular/router';
 
 @Component({
   selector: 'app-gaming',
   templateUrl: './gaming.component.html',
-  styleUrls: ['./gaming.component.css']
+  styleUrls: ['./gaming.component.scss']
 })
 export class GamingComponent implements OnInit {
 
@@ -16,7 +16,7 @@ export class GamingComponent implements OnInit {
   totalPasswords: number = 0;
 
   constructor(
-    public firebaseService: FirebaseService,
+    public firebaseService: AuthService,
     private router: Router
   ) { }
 

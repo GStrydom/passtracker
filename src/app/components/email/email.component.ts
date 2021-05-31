@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { FirebaseService } from '../../services/firebase.service';
+import { AuthService } from '../../services/auth/auth.service';
 import { Router, Params } from '@angular/router';
 
 @Component({
   selector: 'app-email',
   templateUrl: './email.component.html',
-  styleUrls: ['./email.component.css']
+  styleUrls: ['./email.component.scss']
 })
 
 export class EmailComponent implements OnInit {
@@ -16,7 +16,7 @@ export class EmailComponent implements OnInit {
   duplicates: number = 0;
   weakpasswords: number = 0;
 
-  constructor(public firebaseService: FirebaseService, private router: Router) {}
+  constructor(public firebaseService: AuthService, private router: Router) {}
 
   ngOnInit() {
     this.getData();

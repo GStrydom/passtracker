@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, ActivatedRoute } from '@angular/router';
-import { FirebaseService } from '../../services/firebase.service';
+import { AuthService } from '../../services/auth/auth.service';
 
 @Injectable()
 export class EditPasswordResolver implements Resolve<any> {
 
-  constructor(public firebaseService: FirebaseService) { }
+  constructor(public firebaseService: AuthService) { }
 
   resolve(route: ActivatedRouteSnapshot,) {
 
