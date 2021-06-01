@@ -14,15 +14,15 @@ import { AuthguardService } from './services/auth/authguard.service';
 
 export const rootRouterConfig: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
-  { path: 'profile', component: HomeComponent, canActivate: [AuthguardService] },
+  { path: 'profile', component: HomeComponent,  },
   { path: 'login', component: LoginComponent },
   { path: 'logout', component: LogoutComponent },
-  { path: 'email', component: EmailComponent },
+  { path: 'email', component: EmailComponent, canActivate: [AuthguardService] },
   { path: 'register', component: RegisterComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'gaming', component: GamingComponent },
-  { path: 'social', component: SocialmediaComponent },
-  { path: 'general', component: GeneralComponent },
-  { path: 'new-password', component: NewPasswordComponent },
-  { path: 'details/:id', component: EditPasswordComponent, resolve: { data : EditPasswordResolver} }
+  { path: 'home', component: HomeComponent, canActivate: [AuthguardService] },
+  { path: 'gaming', component: GamingComponent, canActivate: [AuthguardService] },
+  { path: 'social', component: SocialmediaComponent, canActivate: [AuthguardService] },
+  { path: 'general', component: GeneralComponent, canActivate: [AuthguardService] },
+  { path: 'new-password', component: NewPasswordComponent, canActivate: [AuthguardService] },
+  { path: 'details/:id', component: EditPasswordComponent, canActivate: [AuthguardService], resolve: { data : EditPasswordResolver} }
 ];
