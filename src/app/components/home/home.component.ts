@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.getData();
+    // this.checkForDuplicates();
   }
 
   getData() {
@@ -31,20 +32,12 @@ export class HomeComponent implements OnInit {
       this.items = result;
       this.nameFilteredItems = result;
       this.totalPasswords = this.nameFilteredItems.length;
+      this.dupArray = result;
     });
-    this.items.forEach(function(item) {
-      this.dupArray.push(item.payload.doc.data()['website'])    
-    })
   }
 
   hasDuplicates(arr) {
     return new Set(arr).size !== arr.length;
-  }
-
-  checkForDuplicates() {
-    if (this.hasDuplicates(this.dupArray)) {
-        this.duplicates += 1;
-    }
   }
 
   viewDetails(item) {
