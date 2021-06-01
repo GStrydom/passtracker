@@ -1,12 +1,12 @@
 <mat-toolbar color="primary" class="topnav">
   <div class="nav-brander"><span><mat-icon inline="true">public</mat-icon></span>Pass Tracker</div>
-  <div>
-    <span class="nav-span1"><span><mat-icon inline="true">person_outline</mat-icon></span>Gregory Strydom</span>
-    <span class="nav-span1"><span><mat-icon inline="true">person_outline</mat-icon></span><a (click)="authService.logout()">Logout</a></span>
-    <!-- <span class="nav-span">
-      <span><mat-icon inline="true">logout</mat-icon></span>
-      <a class="logout-link" routerLink="logout">Logout</a>
-    </span> -->
+  <div *ngIf="authService.userData as user">
+      <span class="nav-span1">
+        <span>
+          <mat-icon inline="true">person_outline</mat-icon>
+        </span>{{ user.displayName }}
+      </span>
+      <span class="nav-span1"><span><mat-icon inline="true">person_outline</mat-icon></span><a (click)="authService.logout()">Logout</a></span>
   </div>
 </mat-toolbar>
 
