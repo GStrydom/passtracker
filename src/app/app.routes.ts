@@ -13,7 +13,8 @@ import { EditPasswordResolver } from './components/edit-password/edit-password.r
 import { AuthguardService } from './services/auth/authguard.service';
 
 export const rootRouterConfig: Routes = [
-  { path: '', component: HomeComponent, children: [] },
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: 'profile', component: HomeComponent, canActivate: [AuthguardService] },
   { path: 'login', component: LoginComponent },
   { path: 'logout', component: LogoutComponent },
   { path: 'email', component: EmailComponent },
@@ -22,6 +23,6 @@ export const rootRouterConfig: Routes = [
   { path: 'gaming', component: GamingComponent },
   { path: 'social', component: SocialmediaComponent },
   { path: 'general', component: GeneralComponent },
-  { path: 'new-user', component: NewPasswordComponent },
+  { path: 'new-password', component: NewPasswordComponent },
   { path: 'details/:id', component: EditPasswordComponent, resolve: { data : EditPasswordResolver} }
 ];
