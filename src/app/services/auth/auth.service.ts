@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 import { AngularFirestore, AngularFirestoreDocument } from '@angular/fire/firestore';
 import { AngularFireAuth } from '@angular/fire/auth';
@@ -8,32 +8,45 @@ import { User } from './user.model';
 
 @Injectable()
 export class AuthService {
-  user$: Observable<any>;
+  userData: any;
 
-  constructor(
-    private afAuth: AngularFireAuth,
-    private afs: AngularFirestore,
-    private router: Router) {
-    this.user$ = this.afAuth.authState.pipe(
-      switchMap(user => {
-        if (user) {
-          return this.afs.doc<User>(`users/${user.uid}`).valueChanges();
-        } else {
-          return of(null);
-        }
-      })
-    )
+  constructor(public afAuth: AngularFireAuth, public afs: AngularFirestore, public router: Router, public ngZone: NgZone) {
+    this.afAuth.authState.subscribe(user => {
+      if (user) {
+        this.userData = user;
+        localStorage.setItem('user', JSON.stringify(this.userData));
+        JSON.parse(localStorage.getItem('user'));
+      } else {
+        localStorage.setItem('user', null);
+        JSON.parse(localStorage.getItem('user'));
+      }
+    })
   }
 
-  login(email: string, password: string) {
-    this.afAuth.signInWithEmailAndPassword(email, password)
-    .then(value => {
-      console.log('Nice, it worked!');
-      this.router.navigateByUrl('/profile');
+  // Sign in with email/password
+  login(email, password) {
+    return this.afAuth.signInWithEmailAndPassword(email, password)
+      .then((result) => {
+        this.ngZone.run(() => {
+          this.router.navigate(['home']);
+        });
+        this.SetUserData(result.user);
+      }).catch((error) => {
+        window.alert(error.message)
+      })
+  }
+
+  SetUserData(user) {
+    const userRef: AngularFirestoreDocument<any> = this.afs.doc(`users/${user.uid}`);
+    const userData: User = {
+      uid: user.uid,
+      email: user.email,
+      displayName: user.displayName,
+      emailVerified: user.emailVerified
+    }
+    return userRef.set(userData, {
+      merge: true
     })
-    .catch(err => {
-      console.log('Something went wrong: ', err.message);
-    });
   }
 
   emailSignup(email: string, password: string) {
@@ -53,7 +66,7 @@ export class AuthService {
     });
   }
 
-  isLoggedIn() {
+  get isLoggedIn(): boolean {
     const user = JSON.parse(localStorage.getItem('user'));
     return user !== null;
   }
