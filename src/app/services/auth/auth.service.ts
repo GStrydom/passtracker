@@ -13,6 +13,7 @@ export class AuthService {
   constructor(public afAuth: AngularFireAuth, public afs: AngularFirestore, public router: Router, public ngZone: NgZone) {
     this.afAuth.authState.subscribe(user => {
       if (user) {
+        console.log('User found');
         this.userData = user;
         localStorage.setItem('user', JSON.stringify(this.userData));
         JSON.parse(localStorage.getItem('user'));
@@ -41,7 +42,7 @@ export class AuthService {
     const userData: User = {
       uid: user.uid,
       email: user.email,
-      displayName: user.displayName,
+      displayName: user.email,
       emailVerified: user.emailVerified
     }
     return userRef.set(userData, {
