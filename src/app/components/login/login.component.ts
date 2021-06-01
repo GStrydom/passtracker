@@ -8,17 +8,4 @@ import { AuthService } from '../../services/auth/auth.service';
 })
 export class LoginComponent {
 	constructor(public authService: AuthService) {}
-
-	// email: string;
-	// password: string;
-
-	// signIn() {
-	// 	this.authService.login(this.email, this.password);
-	// 	this.email = '';
-	// 	this.password = '';
-	// }
-
-	// signOut() {
-	// 	this.authService.logout();
-	// }
 }
