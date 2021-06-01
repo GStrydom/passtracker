@@ -7,18 +7,18 @@ import { AuthService } from '../../services/auth/auth.service';
 	styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-	constructor(public authenticationService: AuthService) {}
+	constructor(public authService: AuthService) {}
 
-	email: string;
-	password: string;
+	// email: string;
+	// password: string;
 
-	signIn() {
-		this.authenticationService.login(this.email, this.password);
-		this.email = '';
-		this.password = '';
-	}
+	// signIn() {
+	// 	this.authService.login(this.email, this.password);
+	// 	this.email = '';
+	// 	this.password = '';
+	// }
 
-	signOut() {
-		this.authenticationService.logout();
-	}
+	// signOut() {
+	// 	this.authService.logout();
+	// }
 }
