@@ -17,7 +17,6 @@ import { AuthService } from './services/auth/auth.service';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
-import { FirebaseService } from './services/firebase.service';
 import { AngularFireAuthModule } from  '@angular/fire/auth';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -81,7 +80,7 @@ import { ShowpasswordComponent } from './components/showpassword/showpassword.co
     MatExpansionModule,
     AngularFireAuthModule,
   ],
-  providers: [FirebaseService, EditPasswordResolver, AuthService],
+  providers: [EditPasswordResolver, AuthService],
   bootstrap: [AppComponent],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
