@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-edit-password',
   templateUrl: './edit-password.component.html',
-  styleUrls: ['./edit-password.component.css']
+  styleUrls: ['./edit-password.component.scss']
 })
 export class EditPasswordComponent implements OnInit {
 
