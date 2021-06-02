@@ -30,8 +30,7 @@ export class AuthService {
       .then((result) => {
         console.log(result);
         this.ngZone.run(() => {
-          window.location.href = "/home";
-          //this.router.navigate(['/home']);
+          this.router.navigate(['home']);
         });
         this.SetUserData(result.user);
       }).catch((error) => {
@@ -65,7 +64,7 @@ export class AuthService {
 
   logout() {
     this.afAuth.signOut().then(() => {
-      this.router.navigate(['/login']);
+      this.router.navigate(['login']);
       location.reload();
     });
   }
