@@ -14,7 +14,6 @@ import { AuthguardService } from './services/auth/authguard.service';
 
 export const rootRouterConfig: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
-  { path: 'profile', component: HomeComponent,  },
   { path: 'login', component: LoginComponent },
   { path: 'logout', component: LogoutComponent },
   { path: 'email', component: EmailComponent, canActivate: [AuthguardService] },
