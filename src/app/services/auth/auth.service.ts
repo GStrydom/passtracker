@@ -28,8 +28,10 @@ export class AuthService {
   login(email, password) {
     return this.afAuth.signInWithEmailAndPassword(email, password)
       .then((result) => {
+        console.log(result);
         this.ngZone.run(() => {
-          this.router.navigate(['home']);
+          window.location.href = "/home";
+          //this.router.navigate(['/home']);
         });
         this.SetUserData(result.user);
       }).catch((error) => {
@@ -63,7 +65,8 @@ export class AuthService {
 
   logout() {
     this.afAuth.signOut().then(() => {
-      this.router.navigate(['/']);
+      this.router.navigate(['/login']);
+      location.reload();
     });
   }
 
