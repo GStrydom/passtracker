@@ -23,6 +23,24 @@ console.toolbox = [{'autosave': False,
                     'shared': False,
                     'title': 'Shell',
                     'use_container': False}]
+debug.launch-configs = (2,
+                        {'launch-TemJOhpbmzmttNSG': ({},
+        {'buildcmd': ('project',
+                      ('',
+                       '')),
+         'env': ('project',
+                 []),
+         'name': u'Django runserver',
+         'pyexec': ('project',
+                    ''),
+         'pypath': ('project',
+                    []),
+         'pyrunargs': ('project',
+                       '-u'),
+         'runargs': 'runserver 8000',
+         'rundir': ('project',
+                    '')})})
+proj.debug-sub-processes = True
 proj.directory-list = [{'dirloc': loc('.'),
                         'excludes': (),
                         'filter': u'*',
@@ -30,3 +48,10 @@ proj.directory-list = [{'dirloc': loc('.'),
                         'recursive': True,
                         'watch_for_changes': True}]
 proj.file-type = 'shared'
+proj.launch-config = {loc('passtracker_back/manage.py'): ('custom',
+        ('',
+         'launch-TemJOhpbmzmttNSG'))}
+proj.main-file = loc('passtracker_back/manage.py')
+testing.test-framework = {None: ':internal djangotest',
+                          loc('passtracker_back/manage.py'): ':internal djan'\
+        'gotest'}
