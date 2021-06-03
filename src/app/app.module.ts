@@ -14,6 +14,8 @@ import { NewPasswordComponent } from './components/new-password/new-password.com
 import { HomeComponent } from './components/home/home.component';
 import { AuthService } from './services/auth/auth.service';
 
+import { TransferService } from './services/transfer.service';
+
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
@@ -81,7 +83,7 @@ import { ShowpasswordComponent } from './components/showpassword/showpassword.co
     AngularFireAuthModule,
     
   ],
-  providers: [EditPasswordResolver, AuthService],
+  providers: [EditPasswordResolver, AuthService, TransferService],
   bootstrap: [AppComponent],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
