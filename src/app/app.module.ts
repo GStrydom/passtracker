@@ -44,7 +44,6 @@ import { LogoutComponent } from './components/logout/logout.component';
 import { EmailComponent } from './components/email/email.component';
 import { ShowpasswordComponent } from './components/showpassword/showpassword.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -81,7 +80,6 @@ import { ShowpasswordComponent } from './components/showpassword/showpassword.co
     MatCardModule,
     MatExpansionModule,
     AngularFireAuthModule,
-    
   ],
   providers: [EditPasswordResolver, AuthService, TransferService],
   bootstrap: [AppComponent],
