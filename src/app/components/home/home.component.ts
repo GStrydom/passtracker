@@ -3,6 +3,7 @@ import { AuthService } from '../../services/auth/auth.service';
 import { Router, Params } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { ShowpasswordComponent } from '../showpassword/showpassword.component';
+import { TransferService } from '../../services/transfer.service';
 
 @Component({
   selector: 'app-home',
@@ -10,20 +11,17 @@ import { ShowpasswordComponent } from '../showpassword/showpassword.component';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
   searchValue: string = '';
   items: Array<any>;
   nameFilteredItems: Array<any>;
   totalPasswords: number = 0;
-  dupArray: Array<any>;
   duplicates: number = 0;
   weakpasswords: number = 0;
 
-  constructor(public firebaseService: AuthService, private router: Router, public dialog: MatDialog) {}
+  constructor(public firebaseService: AuthService, private router: Router, public dialog: MatDialog, public transferService: TransferService) {}
 
   ngOnInit() {
     this.getData();
-    // this.checkForDuplicates();
   }
 
   getData() {
@@ -32,8 +30,16 @@ export class HomeComponent implements OnInit {
       this.items = result;
       this.nameFilteredItems = result;
       this.totalPasswords = this.nameFilteredItems.length;
-      this.dupArray = result;
-    });
+      
+      // This is bad!!!
+      let dupArray = [];
+      for (let x=0; x < result.length; x++) {
+        dupArray.push(result[x].payload.doc.data()['password'])
+      }
+      if (this.hasDuplicates(dupArray)) {
+        console.log('Duplicates found');
+      }
+    })
   }
 
   hasDuplicates(arr) {
@@ -57,7 +63,8 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  openDialog() {
+  openDialog(item) {
+    this.transferService.setData(item);
     const dialogRef = this.dialog.open(ShowpasswordComponent, {
       height: '400px',
       width: '400px'
