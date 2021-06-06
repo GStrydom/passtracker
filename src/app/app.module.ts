@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
 import { Router } from '@angular/router';
@@ -21,7 +23,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { AngularFireAuthModule } from  '@angular/fire/auth';
 
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatSliderModule } from '@angular/material/slider';
@@ -43,6 +45,7 @@ import { GeneralComponent } from './components/general/general.component';
 import { LogoutComponent } from './components/logout/logout.component';
 import { EmailComponent } from './components/email/email.component';
 import { ShowpasswordComponent } from './components/showpassword/showpassword.component';
+import { ImportComponent } from './components/import/import.component';
 
 @NgModule({
   declarations: [
@@ -59,13 +62,14 @@ import { ShowpasswordComponent } from './components/showpassword/showpassword.co
     LogoutComponent,
     EmailComponent,
     ShowpasswordComponent,
+    ImportComponent,
   ],
   entryComponents: [ImageDialogComponent, ShowpasswordComponent],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(rootRouterConfig, { useHash: false }),
+    RouterModule.forRoot(rootRouterConfig, { useHash: true }),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     BrowserAnimationsModule,
