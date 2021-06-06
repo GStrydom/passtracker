@@ -4,7 +4,7 @@
     <div class="input-group searchbar">
       <input type="text" class="form-control searchbar" [(ngModel)]="searchValue" [ngModelOptions]="{standalone: true}" placeholder="Search..." (keyup)="searchByName()">
       <div class="input-group-append">
-        <span class="input-group-text"><ion-icon class="icon" name="search"></ion-icon></span>
+        <span class="input-group-text icb"><ion-icon class="icon" name="search"></ion-icon></span>
       </div>
     </div>
   </div>
@@ -17,20 +17,27 @@
               Click For Password Statistics
             </mat-panel-title>
           </mat-expansion-panel-header>
-          <mat-card>Duplicates: {{ duplicates }}</mat-card>
-          <mat-card>Weak Passwords: {{ weakpasswords }}</mat-card>
-          <mat-card>Hmmm</mat-card>
+          <mat-card><span><ion-icon style="zoom:2.0;" class="icon" name="ios-browsers"></ion-icon></span>&nbsp;<span>Duplicates: {{ duplicates }}</span><span *ngif="">View</span></mat-card>
+          <mat-card><span><ion-icon style="zoom:2.0;" class="icon" name="ios-outlet"></ion-icon></span>&nbsp;<span>Weak Passwords: {{ weakpasswords }}</span></mat-card>
         </mat-expansion-panel>
       </div>
     </div>
   </div>
 </div>
-  <div class="row mt-4 mb-4">
-    <a class="nav-link" routerLink="/new-password">
-      <button class="btn btn-primary">New Password</button>
-    </a>
+  <div class="butcont mt-4 mb-4">
+    <div>
+      <a class="nav-link" routerLink="/new-password">
+        <button class="bt_n btn btn-primary">New Password</button>
+      </a>
+    </div>
+    <div>
+      <a class="nav-link" routerLink="/import">
+        <button class="bt_n btn btn-primary">Import</button>
+      </a>
+    </div>
+    
   </div>
-  <div *ngFor="let item of items" class="list-group-item list-group-item-action flex-column align-items-start">
+  <div @fade *ngFor="let item of items" class="list-group-item list-group-item-action flex-column align-items-start">
     <div class="row">
       <div class="col col-md-2 image-col">
         <img class="image" [src]="item.payload.doc.data().avatar">
@@ -46,6 +53,10 @@
         &nbsp;
         <button matTooltip="Edit Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-primary action" (click)="viewDetails(item)" type="button">
           <ion-icon class="icon" name="create"></ion-icon>
+        </button>
+        &nbsp;
+        <button matTooltip="Delete Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-danger action" (click)="delete(item)" type="button">
+          <ion-icon class="icon" name="trash"></ion-icon>
         </button>
       </div>
     </div>

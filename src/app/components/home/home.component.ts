@@ -4,11 +4,22 @@ import { Router, Params } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { ShowpasswordComponent } from '../showpassword/showpassword.component';
 import { TransferService } from '../../services/transfer.service';
+import { trigger, state, transition, style, animate } from '@angular/animations';
+
+const specialChars = ['!','@','#','$','%','&','*','(',')'];
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
+  animations: [
+    trigger('fade', [
+      transition('void => *', [
+        style({ opacity: 0}),
+        animate(250)
+      ])
+    ])
+  ]
 })
 export class HomeComponent implements OnInit {
   searchValue: string = '';
@@ -22,6 +33,30 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.getData();
+    this.checkPasswordsStrength();
+  }
+  
+  hasDuplicates(array) {
+    var valuesSoFar = Object.create(null);
+    for (var i = 0; i < array.length; ++i) {
+        var value = array[i];
+        if (value in valuesSoFar) {
+          this.duplicates += 1;
+          return true;
+        }
+        valuesSoFar[value] = true;
+    }
+    return false;
+  }
+  
+  containsDuplicates(a) {
+    for (let i = 0; i < a.length; i++) {
+      if (a.indexOf(a[i]) !== a.lastIndexOf(a[i])) {
+        this.duplicates += 1;
+        return true
+      }
+    }
+    return false
   }
 
   getData() {
@@ -31,19 +66,18 @@ export class HomeComponent implements OnInit {
       this.nameFilteredItems = result;
       this.totalPasswords = this.nameFilteredItems.length;
       
-      // This is bad!!!
       let dupArray = [];
       for (let x=0; x < result.length; x++) {
-        dupArray.push(result[x].payload.doc.data()['password'])
+        dupArray.push(result[x].payload.doc.data()['password']);
       }
-      if (this.hasDuplicates(dupArray)) {
-        console.log('Duplicates found');
-      }
+      let numpasses = dupArray.length;
+      console.log("There are " + numpasses.toString());
+      this.containsDuplicates(dupArray);
     })
   }
-
-  hasDuplicates(arr) {
-    return new Set(arr).size !== arr.length;
+  
+  checkPasswordsStrength() {
+    
   }
 
   viewDetails(item) {
@@ -69,5 +103,17 @@ export class HomeComponent implements OnInit {
       height: '400px',
       width: '400px'
     });
+  }
+
+  delete(item){
+    this.firebaseService.deletePassword(item.id)
+    .then(
+      res => {
+        this.router.navigate(['home']);
+      },
+      err => {
+        console.log(err);
+      }
+    )
   }
 }

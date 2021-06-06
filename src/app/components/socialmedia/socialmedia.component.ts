@@ -1,11 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../../services/auth/auth.service';
 import { Router, Params } from '@angular/router';
+import { trigger, state, transition, style, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-gaming',
   templateUrl: './socialmedia.component.html',
-  styleUrls: ['./socialmedia.component.scss']
+  styleUrls: ['./socialmedia.component.scss'],
+  animations: [
+    trigger('fade', [
+      transition('void => *', [
+        style({ opacity: 0}),
+        animate(250)
+      ])
+    ])
+  ]
 })
 export class SocialmediaComponent implements OnInit {
 

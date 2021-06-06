@@ -13,12 +13,17 @@ import { TransferService } from '../../services/transfer.service';
 export class ShowpasswordComponent implements OnInit {
     item = this.transferService.getData();
 
-  constructor(public dialogRef: MatDialogRef<ShowpasswordComponent>, public firebaseService: AuthService, public transferService: TransferService) { }
+  constructor(public router: Router, public dialogRef: MatDialogRef<ShowpasswordComponent>, public firebaseService: AuthService, public transferService: TransferService) { }
 
   ngOnInit() {
   }
 
   close() {
     this.dialogRef.close();
+  }
+  
+  edit(item) {
+    this.close();
+    this.router.navigate(['/details/' + item.payload.doc.id]);
   }
 }

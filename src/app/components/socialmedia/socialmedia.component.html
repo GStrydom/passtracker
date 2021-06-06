@@ -17,12 +17,12 @@
   </div>
 </div>
   <div class="row mt-4 mb-4">
-    <a class="nav-link" routerLink="/new-user">
+    <a class="nav-link" routerLink="/new-password">
       <button class="btn btn-primary">New Password</button>
     </a>
   </div>
   <mat-card class="mb-4 cat-card">Social Media</mat-card>
-  <div *ngFor="let item of items" class="list-group-item list-group-item-action flex-column align-items-start">
+  <div @fade *ngFor="let item of items" class="list-group-item list-group-item-action flex-column align-items-start">
     <div class="row">
       <div class="col col-md-2 image-col">
         <img class="image" [src]="item.payload.doc.data().avatar">
@@ -32,8 +32,12 @@
         <small>Category: {{item.payload.doc.data().category}}</small>
       </div>
       <div class="col col-md-2 actions-col">
-        <button class="btn btn-outline-primary action" (click)="viewDetails(item)" type="button">
-          <ion-icon class="icon" name="arrow-round-forward"></ion-icon>
+        <button matTooltip="View Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-primary action" (click)="openDialog(item)" type="button">
+          <ion-icon class="icon" name="eye"></ion-icon>
+        </button>
+        &nbsp;
+        <button matTooltip="Edit Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-primary action" (click)="viewDetails(item)" type="button">
+          <ion-icon class="icon" name="create"></ion-icon>
         </button>
       </div>
     </div>
