@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { ImportComponent } from './components/import/import.component';
 import { GamingComponent } from './components/gaming/gaming.component';
 import { EmailComponent } from './components/email/email.component';
 import { SocialmediaComponent } from './components/socialmedia/socialmedia.component';
@@ -13,8 +14,10 @@ import { EditPasswordResolver } from './components/edit-password/edit-password.r
 import { AuthguardService } from './services/auth/authguard.service';
 
 export const rootRouterConfig: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  //{ path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', component: LoginComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'import', component: ImportComponent },
   { path: 'email', component: EmailComponent, canActivate: [AuthguardService] },
   { path: 'register', component: RegisterComponent },
   { path: 'home', component: HomeComponent, canActivate: [AuthguardService] },
