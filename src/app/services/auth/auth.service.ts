@@ -13,7 +13,6 @@ export class AuthService {
   constructor(public afAuth: AngularFireAuth, public afs: AngularFirestore, public router: Router, public ngZone: NgZone) {
     this.afAuth.authState.subscribe(user => {
       if (user) {
-        console.log('User found');
         this.userData = user;
         localStorage.setItem('user', JSON.stringify(this.userData));
         JSON.parse(localStorage.getItem('user'));
@@ -28,7 +27,6 @@ export class AuthService {
   login(email, password) {
     return this.afAuth.signInWithEmailAndPassword(email, password)
       .then((result) => {
-        console.log(result);
         this.ngZone.run(() => {
           this.router.navigate(['home']);
         });
@@ -43,8 +41,8 @@ export class AuthService {
     const userData: User = {
       uid: user.uid,
       email: user.email,
-      displayName: user.email,
-      emailVerified: user.emailVerified
+      // displayName: user.email,
+      // emailVerified: user.emailVerified
     }
     return userRef.set(userData, {
       merge: true
@@ -55,7 +53,7 @@ export class AuthService {
     this.afAuth.createUserWithEmailAndPassword(email, password)
     .then(value => {
      console.log('Sucess', value);
-     this.router.navigateByUrl('/profile');
+     this.router.navigateByUrl('home');
     })
     .catch(error => {
       console.log('Something went wrong: ', error);
@@ -63,7 +61,8 @@ export class AuthService {
   }
 
   logout() {
-    this.afAuth.signOut().then(() => {
+    return this.afAuth.signOut().then(() => {
+      localStorage.removeItem('user');
       this.router.navigate(['login']);
       location.reload();
     });
@@ -71,11 +70,7 @@ export class AuthService {
 
   get isLoggedIn(): boolean {
     const user = JSON.parse(localStorage.getItem('user'));
-    return user !== null;
-  }
-
-  private oAuthLogin(provider) {
-    return this.afAuth.signInWithPopup(provider);
+    return (user !== null) ? true : false;
   }
 
   getAvatars(){
