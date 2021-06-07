@@ -46,6 +46,7 @@ import { LogoutComponent } from './components/logout/logout.component';
 import { EmailComponent } from './components/email/email.component';
 import { ShowpasswordComponent } from './components/showpassword/showpassword.component';
 import { ImportComponent } from './components/import/import.component';
+import { CategorytemplateComponent } from './components/categorytemplate/categorytemplate.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { ImportComponent } from './components/import/import.component';
     EmailComponent,
     ShowpasswordComponent,
     ImportComponent,
+    CategorytemplateComponent,
   ],
   entryComponents: [ImageDialogComponent, ShowpasswordComponent],
   imports: [
