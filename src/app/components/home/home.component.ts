@@ -1,12 +1,12 @@
+// noinspection TaskProblemsInspection
+
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../../services/auth/auth.service';
-import { Router, Params } from '@angular/router';
+import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { ShowpasswordComponent } from '../showpassword/showpassword.component';
 import { TransferService } from '../../services/transfer.service';
 import { trigger, state, transition, style, animate } from '@angular/animations';
-
-const specialChars = ['!','@','#','$','%','&','*','(',')'];
 
 @Component({
   selector: 'app-home',
@@ -21,6 +21,7 @@ const specialChars = ['!','@','#','$','%','&','*','(',')'];
     ])
   ]
 })
+
 export class HomeComponent implements OnInit {
   searchValue: string = '';
   items: Array<any>;
@@ -33,22 +34,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.getData();
-    this.checkPasswordsStrength();
+    this.checkPasswordsStrength("password");
   }
-  
-  hasDuplicates(array) {
-    var valuesSoFar = Object.create(null);
-    for (var i = 0; i < array.length; ++i) {
-        var value = array[i];
-        if (value in valuesSoFar) {
-          this.duplicates += 1;
-          return true;
-        }
-        valuesSoFar[value] = true;
-    }
-    return false;
-  }
-  
+
+  // Check if our results array contains any duplicates
   containsDuplicates(a) {
     for (let i = 0; i < a.length; i++) {
       if (a.indexOf(a[i]) !== a.lastIndexOf(a[i])) {
@@ -65,23 +54,33 @@ export class HomeComponent implements OnInit {
       this.items = result;
       this.nameFilteredItems = result;
       this.totalPasswords = this.nameFilteredItems.length;
-      
+
       let dupArray = [];
       for (let x=0; x < result.length; x++) {
         dupArray.push(result[x].payload.doc.data()['password']);
       }
-      let numpasses = dupArray.length;
-      console.log("There are " + numpasses.toString());
       this.containsDuplicates(dupArray);
+      this.checkPasswordsStrength(dupArray);
     })
   }
-  
-  checkPasswordsStrength() {
-    
+
+  // Check our password strength.
+  checkPasswordsStrength(dupArray) {
+    let strongRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})");
+    let mediumRegex = new RegExp("^(((?=.*[a-z])(?=.*[A-Z]))|((?=.*[a-z])(?=.*[0-9]))|((?=.*[A-Z])(?=.*[0-9])))(?=.{6,})");
+    for (let x=0; x < dupArray.length; x++) {
+      if (strongRegex.test(dupArray[x])) {
+        console.log("Strong password")
+      } else if (mediumRegex.test(dupArray[x])) {
+        console.log("Medium password")
+      } else {
+        this.weakpasswords += 1;
+      }
+    }
   }
 
   viewDetails(item) {
-    this.router.navigate(['/details/' + item.payload.doc.id]);
+    this.router.navigate(['/details/' + item.payload.doc.id]).then(r => {});
   }
 
   capitalizeFirstLetter(value) {
@@ -97,6 +96,7 @@ export class HomeComponent implements OnInit {
     });
   }
 
+  // Show the password dialog
   openDialog(item) {
     this.transferService.setData(item);
     const dialogRef = this.dialog.open(ShowpasswordComponent, {
@@ -105,11 +105,11 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  delete(item){
+  deleteItem(item){
     this.firebaseService.deletePassword(item.id)
     .then(
       res => {
-        this.router.navigate(['home']);
+        this.router.navigate(['home']).then(r => {});
       },
       err => {
         console.log(err);
