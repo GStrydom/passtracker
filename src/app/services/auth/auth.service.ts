@@ -2,8 +2,6 @@ import { Injectable, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
 import { AngularFirestore, AngularFirestoreDocument } from '@angular/fire/firestore';
 import { AngularFireAuth } from '@angular/fire/auth';
-import { Observable, of } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
 import { User } from './user.model';
 
 @Injectable()
@@ -28,9 +26,11 @@ export class AuthService {
     return this.afAuth.signInWithEmailAndPassword(email, password)
       .then((result) => {
         this.ngZone.run(() => {
-          this.router.navigate(['home']);
+          this.router.navigate(['home']).then(r => {});
         });
-        this.SetUserData(result.user);
+        this.SetUserData(result.user).then(r => {}).catch((error) => {
+          window.alert(error.message)
+        });
       }).catch((error) => {
         window.alert(error.message)
       })
@@ -52,8 +52,8 @@ export class AuthService {
   emailSignup(email: string, password: string) {
     this.afAuth.createUserWithEmailAndPassword(email, password)
     .then(value => {
-     console.log('Sucess', value);
-     this.router.navigateByUrl('home');
+     console.log('Success', value);
+     this.router.navigateByUrl('home').then(r => {});
     })
     .catch(error => {
       console.log('Something went wrong: ', error);
@@ -63,14 +63,15 @@ export class AuthService {
   logout() {
     return this.afAuth.signOut().then(() => {
       localStorage.removeItem('user');
-      this.router.navigate(['login']);
+      this.router.navigate(['login']).then(r => {});
       location.reload();
     });
   }
 
   get isLoggedIn(): boolean {
     const user = JSON.parse(localStorage.getItem('user'));
-    return (user !== null) ? true : false;
+    console.log(user)
+    return (user !== null);
   }
 
   getAvatars(){
