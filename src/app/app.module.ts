@@ -2,11 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-
 import { RouterModule } from '@angular/router';
 import { rootRouterConfig } from './app.routes';
-import { Router } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ImageDialogComponent } from './components/image-dialog/image-dialog.component';
