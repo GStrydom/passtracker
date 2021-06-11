@@ -8,7 +8,7 @@
       </div>
     </div>
   </div>
-  <div class="col-md-6 filter-by-age">
+  <div class="col-md-6">
     <div class="row">
       <div class="col">
         <mat-expansion-panel>
@@ -17,8 +17,14 @@
               Click For Password Statistics
             </mat-panel-title>
           </mat-expansion-panel-header>
-          <mat-card><span><ion-icon style="zoom:2.0;" class="icon" name="ios-browsers"></ion-icon></span>&nbsp;<span>Duplicates: {{ duplicates }}</span><span *ngif="">View</span></mat-card>
-          <mat-card><span><ion-icon style="zoom:2.0;" class="icon" name="ios-outlet"></ion-icon></span>&nbsp;<span>Weak Passwords: {{ weakpasswords }}</span></mat-card>
+          <mat-card>
+            <ion-icon class="icon stat-icons stat-icons-red" name="ios-browsers"></ion-icon>&nbsp;
+            <span class="stat-text">Duplicates:&nbsp;{{ duplicates }}</span>
+          </mat-card>
+          <mat-card>
+            <ion-icon class="icon stat-icons stat-icons-green" name="ios-outlet"></ion-icon>&nbsp;
+            <span class="stat-text">Weak Passwords:&nbsp;{{ weakpasswords }}</span>
+          </mat-card>
         </mat-expansion-panel>
       </div>
     </div>
@@ -35,7 +41,7 @@
         <button class="bt_n btn btn-primary">Import</button>
       </a>
     </div>
-    
+
   </div>
   <div @fade *ngFor="let item of items" class="list-group-item list-group-item-action flex-column align-items-start">
     <div class="row">
@@ -55,7 +61,7 @@
           <ion-icon class="icon" name="create"></ion-icon>
         </button>
         &nbsp;
-        <button matTooltip="Delete Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-danger action" (click)="delete(item)" type="button">
+        <button matTooltip="Delete Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-danger action" (click)="deleteItem(item)" type="button">
           <ion-icon class="icon" name="trash"></ion-icon>
         </button>
       </div>

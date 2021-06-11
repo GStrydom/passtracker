@@ -42,3 +42,22 @@
   height: 100%;
 }
 
+.stat-icons {
+  display: inline-block;
+  font-size: 35px;
+  vertical-align: middle;
+}
+
+.stat-icons-green {
+  color: forestgreen;
+}
+
+.stat-icons-red {
+  color: red;
+}
+
+.stat-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+

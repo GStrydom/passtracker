@@ -14,7 +14,7 @@ import { EditPasswordResolver } from './components/edit-password/edit-password.r
 import { AuthguardService } from './services/auth/authguard.service';
 
 export const rootRouterConfig: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', component: LoginComponent },
   { path: 'login', component: LoginComponent },
   { path: 'import', component: ImportComponent },
   { path: 'email', component: EmailComponent, canActivate: [AuthguardService] },
