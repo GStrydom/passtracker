@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgxCsvParser } from 'ngx-csv-parser';
-import { NgxCSVParserError } from 'ngx-csv-parser';
 
 @Component({
   selector: 'app-import',
@@ -10,7 +8,7 @@ import { NgxCSVParserError } from 'ngx-csv-parser';
 export class ImportComponent implements OnInit {
 	passwords: any[] = [];
 	header = true;
-  constructor(private ngxCsvParser: NgxCsvParser) {}
+  constructor() {}
 
   ngOnInit(): void {
     

@@ -45,7 +45,6 @@ import { ShowpasswordComponent } from './components/showpassword/showpassword.co
 import { ImportComponent } from './components/import/import.component';
 import { CategorytemplateComponent } from './components/categorytemplate/categorytemplate.component';
 
-import { NgxCsvParserModule } from 'ngx-csv-parser';
 import { ForgotpasswordComponent } from './components/auth/forgotpassword/forgotpassword.component';
 
 @NgModule({
@@ -87,7 +86,6 @@ import { ForgotpasswordComponent } from './components/auth/forgotpassword/forgot
     MatCardModule,
     MatExpansionModule,
     AngularFireAuthModule,
-    NgxCsvParserModule
   ],
   providers: [EditPasswordResolver, AuthService, TransferService],
   bootstrap: [AppComponent],
