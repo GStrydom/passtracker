@@ -11,9 +11,9 @@ import { AuthService } from '../../services/auth/auth.service';
   styleUrls: ['./new-password.component.scss']
 })
 export class NewPasswordComponent implements OnInit {
-
   exampleForm: FormGroup;
   avatarLink: string = "";
+  generatedPassword: string = "";
 
   validation_messages = {
    'category': [
@@ -30,12 +30,7 @@ export class NewPasswordComponent implements OnInit {
    ]
  };
 
-  constructor(
-    private fb: FormBuilder,
-    public dialog: MatDialog,
-    private router: Router,
-    public firebaseService: AuthService
-  ) { }
+  constructor(private fb: FormBuilder, public dialog: MatDialog, private router: Router, public firebaseService: AuthService) { }
 
   ngOnInit() {
     this.createForm();
@@ -83,4 +78,17 @@ export class NewPasswordComponent implements OnInit {
     )
   }
 
+  generatePassword() {
+    let password = "";
+    const numbers = [0,1,2,3,4,5,6,7,8,9];
+    const specials = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ")", "-", "_", "=", "+", "|", "\\"];
+    const letters = ['a', 'A', 'b', "B", 'c', 'C', 'd', 'D', 'e', 'E'];
+    const passwordLength = 4;
+    for (let x=0; x<passwordLength; x++) {
+      password += numbers[Math.floor(Math.random() * numbers.length)];
+      password += specials[Math.floor(Math.random() * specials.length)];
+      password += letters[Math.floor(Math.random() * letters.length)];
+    }
+    this.generatedPassword = password;
+  }
 }
