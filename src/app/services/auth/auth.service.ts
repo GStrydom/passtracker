@@ -122,6 +122,7 @@ export class AuthService {
   }
 
   deletePassword(passwordKey){
+    console.log("Deleting");
     return this.afs.collection('passwords').doc(passwordKey).delete();
   }
 
