@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./import.component.css']
 })
 export class ImportComponent implements OnInit {
-	passwords: any[] = [];
-	header = true;
   constructor() {}
 
   ngOnInit(): void {
