@@ -106,7 +106,7 @@ export class HomeComponent implements OnInit {
   }
 
   deleteItem(item){
-    this.firebaseService.deletePassword(item.id)
+    this.firebaseService.deletePassword(item.payload.doc.id)
     .then(
       res => {
         this.router.navigate(['home']).then(r => {});
