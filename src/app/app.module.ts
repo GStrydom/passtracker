@@ -32,8 +32,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
 
-import 'hammerjs';
-
+// import 'hammerjs';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { GamingComponent } from './components/gaming/gaming.component';
@@ -44,7 +43,6 @@ import { EmailComponent } from './components/email/email.component';
 import { ShowpasswordComponent } from './components/showpassword/showpassword.component';
 import { ImportComponent } from './components/import/import.component';
 import { CategorytemplateComponent } from './components/categorytemplate/categorytemplate.component';
-
 import { ForgotpasswordComponent } from './components/auth/forgotpassword/forgotpassword.component';
 
 @NgModule({
