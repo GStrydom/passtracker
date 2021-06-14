@@ -1,5 +1,9 @@
 <mat-toolbar color="primary" class="topnav">
-  <div class="nav-brander"><span><mat-icon inline="true">public</mat-icon></span>Pass Tracker</div>
+  <div class="nav-brander">
+    <ion-icon class="icon stat-icons topic" name="ios-browsers"></ion-icon>&nbsp;
+    <span class="stat-text">PASSTRACKER</span>
+  </div>
+  <!-- <div class="nav-brander"><span><mat-icon inline="true">public</mat-icon></span>Pass Tracker</div> -->
   <div *ngIf="authService.userData as user">
     <span class="nav-span1">
       <span>
