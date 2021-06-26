@@ -1,0 +1,49 @@
+<mat-toolbar color="primary" class="topnav">
+  <div class="nav-brander">
+    <ion-icon class="icon stat-icons topic" name="ios-browsers"></ion-icon>&nbsp;
+    <span class="stat-text">PASSTRACKER</span>
+  </div>
+  <!-- <div class="nav-brander"><span><mat-icon inline="true">public</mat-icon></span>Pass Tracker</div> -->
+  <div *ngIf="authService.userData as user">
+    <span class="nav-span1">
+      <span>
+        <mat-icon inline="true">person_outline</mat-icon>
+      </span>{{ user.email }}
+    </span>
+    <span class="nav-span2"><span><mat-icon inline="true">logout</mat-icon></span><a (click)="authService.logout()">Logout</a></span>
+  </div>
+</mat-toolbar>
+
+<div class="page-container">
+  <div class="side-bar">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="home" matTooltip="Home" matTooltipShowDelay="500" matTooltipPosition="right">
+          <ion-icon name="home"></ion-icon>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="email" matTooltip="Email" matTooltipShowDelay="500" matTooltipPosition="right">
+          <ion-icon name="mail"></ion-icon>
+        </a>
+      </li>
+      <li class="nav-item"> <a class="nav-link" routerLink="social" matTooltipShowDelay="500" matTooltip="Social Media" matTooltipPosition="right">
+        <ion-icon name="contact"></ion-icon>
+      </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="gaming" matTooltip="Gaming" matTooltipShowDelay="500" matTooltipPosition="right">
+          <ion-icon name="logo-game-controller-b"></ion-icon>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="general" matTooltip="General" matTooltipShowDelay="500" matTooltipPosition="right">
+          <ion-icon name="filing"></ion-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="content-container">
+    <router-outlet></router-outlet>
+  </div>
+</div>

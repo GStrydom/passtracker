@@ -1,0 +1,51 @@
+.users-list {
+  padding: 40px 60px;
+
+  .image-col {
+    text-align:center;
+
+    .image {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .text-col {
+    margin: auto 0px;
+  }
+  .actions-col {
+    text-align: center;
+    margin: auto 0px;
+
+    .action {
+      line-height: 1;
+    }
+    .icon {
+      font-size: 20px;
+    }
+  }
+}
+
+.icb {
+  height: 100%;
+}
+
+.stat-icons {
+  display: inline-block;
+  font-size: 35px;
+  vertical-align: middle;
+}
+
+.stat-icons-green {
+  color: forestgreen;
+}
+
+.stat-icons-red {
+  color: red;
+}
+
+.stat-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+

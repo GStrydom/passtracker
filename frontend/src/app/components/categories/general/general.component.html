@@ -1,0 +1,50 @@
+<div class="list-group users-list">
+  <div class="row">
+  <div class="col-md-6">
+    <div class="input-group searchbar">
+      <input type="text" class="form-control searchbar" [(ngModel)]="searchValue" [ngModelOptions]="{standalone: true}" placeholder="Search..." (keyup)="searchByName()">
+      <div class="input-group-append">
+        <span class="input-group-text"><ion-icon class="icon" name="search"></ion-icon></span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 filter-by-age">
+    <div class="row">
+      <div class="col">
+        <mat-card class="stat-bar"><span>Password Stats:</span>&nbsp;<span>{{ totalPasswords }} passwords in 1 category</span><span class="dup-span">Duplicate Passwords: 0</span></mat-card>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row mt-4 mb-4">
+    <a class="nav-link" routerLink="/new-password">
+      <button class="btn btn-primary">New Password</button>
+    </a>
+  </div>
+
+  <mat-card class="mb-4 cat-card">General</mat-card>
+  <div @fade *ngFor="let item of items" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="row">
+      <div class="col col-md-2 image-col">
+        <img class="image" [src]="item.payload.doc.data().avatar">
+      </div>
+      <div class="col col-md-8 text-col">
+        <h5 class="mb-1">{{item.payload.doc.data().website}}</h5>
+        <small>Category: {{item.payload.doc.data().category}}</small>
+      </div>
+      <div class="col col-md-2 actions-col">
+        <button matTooltip="View Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-primary action" (click)="openDialog(item)" type="button">
+          <ion-icon class="icon" name="eye"></ion-icon>
+        </button>
+        &nbsp;
+        <button matTooltip="Edit Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-primary action" (click)="viewDetails(item)" type="button">
+          <ion-icon class="icon" name="create"></ion-icon>
+        </button>
+        &nbsp;
+        <button matTooltip="Delete Password" matTooltipShowDelay="500" matTooltipPosition="above" class="btn btn-outline-danger action" (click)="delete(item)" type="button">
+          <ion-icon class="icon" name="trash"></ion-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

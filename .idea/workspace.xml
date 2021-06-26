@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9386c56a-2e8d-4610-8097-05a3ff5f54d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9hbmd1bGFyLWZpcmViYXNlLWNydWQ.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9hbmd1bGFyNi1maXJlYmFzZS1jcnVk.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.d3d3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passtracker.sublime-project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.routes.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/auth/forgotpassword/forgotpassword.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/auth/forgotpassword/forgotpassword.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/auth/forgotpassword/forgotpassword.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/auth/forgotpassword/forgotpassword.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/categorytemplate/categorytemplate.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/categorytemplate/categorytemplate.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/categorytemplate/categorytemplate.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/categorytemplate/categorytemplate.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/categorytemplate/categorytemplate.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/categorytemplate/categorytemplate.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.resolver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.resolver.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/edit-password/edit-password.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/email/email.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/email/email.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/email/email.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/email/email.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/email/email.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/email/email.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/email/email.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/gaming/gaming.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/gaming/gaming.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/gaming/gaming.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/gaming/gaming.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/gaming/gaming.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/gaming/gaming.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/gaming/gaming.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/general/general.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/general/general.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/general/general.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/general/general.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/general/general.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/general/general.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/general/general.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/image-dialog/image-dialog.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/image-dialog/image-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/image-dialog/image-dialog.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/image-dialog/image-dialog.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/image-dialog/image-dialog.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/image-dialog/image-dialog.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/image-dialog/image-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/import/import.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/import/import.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/import/import.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/import/import.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/import/import.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/import/import.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/login/login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/login/login.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/login/login.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/logout/logout.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/logout/logout.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/logout/logout.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/logout/logout.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/logout/logout.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/logout/logout.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/new-password/new-password.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/new-password/new-password.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/new-password/new-password.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/new-password/new-password.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/new-password/new-password.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/new-password/new-password.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/new-password/new-password.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/register/register.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/register/register.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/register/register.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/register/register.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/register/register.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/register/register.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/showpassword/showpassword.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/showpassword/showpassword.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/showpassword/showpassword.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/showpassword/showpassword.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/showpassword/showpassword.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/showpassword/showpassword.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/socialmedia/socialmedia.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/socialmedia/socialmedia.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/socialmedia/socialmedia.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/socialmedia/socialmedia.component.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/socialmedia/socialmedia.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/socialmedia/socialmedia.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/socialmedia/socialmedia.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/auth.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/auth.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/auth.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/authguard.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/authguard.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/authguard.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/authguard.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/user.model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/user.model.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/auth/user.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/transfer.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/transfer.service.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/transfer.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/transfer.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uMAf9gaSdx3jYQuWmbrawZWGXy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9386c56a-2e8d-4610-8097-05a3ff5f54d3" name="Default Changelist" comment="" />
+      <created>1624465190023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624465190023</updated>
+      <workItem from="1624465195026" duration="15000" />
+    </task>
+    <servers />
+  </component>
+</project>
