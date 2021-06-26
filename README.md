@@ -1,1 +1,0 @@
-An app made while learning Angular
